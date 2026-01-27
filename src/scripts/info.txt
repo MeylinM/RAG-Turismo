@@ -1,0 +1,5 @@
+PROGRAMAS EJECUTABLES
+Extrae imágenes de PDFs
+Crea metadata
+Puebla las 2 colecciones ChromaDB
+Evalúa con golden set

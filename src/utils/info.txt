@@ -1,1 +1,0 @@
-Aquí van a estar las funciones separadas ya que sino el py va a ser gigante y complicado de leer.

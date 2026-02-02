@@ -23,7 +23,7 @@ logger = logging.getLogger("RAG_Multimodal")
 # Carpetas
 DATA_DIR = Path("../data/pdf")
 IMAGENES_DIR = Path("../data/imagenes_extraidas")
-DB_DIR = "../chroma_db_multimodal_pdf"
+DB_DIR = "../chroma_db_multimodal"
 COLLECTION_NAME = "documentos_multimodal"
 
 # ========== MODELOS (Late Fusion) ==========

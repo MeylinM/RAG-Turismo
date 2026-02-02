@@ -1,0 +1,359 @@
+[
+  {
+    "nombre_archivo": "50_experiencias_ES.pdf",
+    "titulo": "50 Experiencias para vivir en España",
+    "ubicacion": "España",
+    "categoria": "Guía General",
+    "palabras_clave": ["experiencias", "cultura", "arte", "rutas", "imprescindibles", "turismo activo"]
+  },
+  {
+    "nombre_archivo": "Akabane.pdf",
+    "titulo": "Guía del Barrio de Akabane",
+    "ubicacion": "Tokio, Japón",
+    "categoria": "Barrio / Zona",
+    "palabras_clave": ["izakaya", "retro", "sake", "vida local", "barato", "norte de tokio"]
+  },
+  {
+    "nombre_archivo": "Akabane_Ichibangai.pdf",
+    "titulo": "Calle Comercial Akabane Ichibangai",
+    "ubicacion": "Tokio, Japón",
+    "categoria": "Compras / Gastronomía",
+    "palabras_clave": ["calle comercial", "shopping", "comida callejera", "bares", "ambiente local"]
+  },
+  {
+    "nombre_archivo": "Akasaka.pdf",
+    "titulo": "Guía de Akasaka",
+    "ubicacion": "Tokio, Japón",
+    "categoria": "Barrio / Zona",
+    "palabras_clave": ["lujo", "restaurantes", "vida nocturna", "negocios", "hoteles", "historia"]
+  },
+  {
+    "nombre_archivo": "Bosque_de_Okutama.pdf",
+    "titulo": "Terapia de Bosque en Okutama",
+    "ubicacion": "Tokio (Okutama), Japón",
+    "categoria": "Naturaleza / Bienestar",
+    "palabras_clave": ["naturaleza", "bosque", "senderismo", "shinrin-yoku", "relax", "montaña"]
+  },
+  {
+    "nombre_archivo": "CELEBRACIONES_TRADICIONALES.pdf",
+    "titulo": "Celebraciones Tradicionales en España",
+    "ubicacion": "España",
+    "categoria": "Cultura / Eventos",
+    "palabras_clave": ["fiestas", "tradiciones", "folclore", "semana santa", "ferias", "religión"]
+  },
+  {
+    "nombre_archivo": "comida_japon.pdf",
+    "titulo": "Introducción a la Comida Japonesa",
+    "ubicacion": "Japón",
+    "categoria": "Gastronomía",
+    "palabras_clave": ["cocina japonesa", "washoku", "ingredientes", "cultura culinaria", "platos típicos"]
+  },
+  {
+    "nombre_archivo": "comida_local_tokyo.pdf",
+    "titulo": "Guía de Comida Local de Tokio",
+    "ubicacion": "Tokio, Japón",
+    "categoria": "Gastronomía",
+    "palabras_clave": ["especialidades", "monjayaki", "fukagawa meshi", "sabores locales", "tradición"]
+  },
+  {
+    "nombre_archivo": "Decks_Tokyo_Beach.pdf",
+    "titulo": "Decks Tokyo Beach Odaiba",
+    "ubicacion": "Tokio, Japón",
+    "categoria": "Ocio / Compras",
+    "palabras_clave": ["odaiba", "centro comercial", "playa", "vistas", "entretenimiento", "compras"]
+  },
+  {
+    "nombre_archivo": "Desayunos.pdf",
+    "titulo": "Guía de Desayunos en Tokio",
+    "ubicacion": "Tokio, Japón",
+    "categoria": "Gastronomía",
+    "palabras_clave": ["mañana", "desayuno tradicional", "cafeterías", "brunch", "comida matutina"]
+  },
+  {
+    "nombre_archivo": "Descubre_Espana_ES.pdf",
+    "titulo": "Descubre España en Familia",
+    "ubicacion": "España",
+    "categoria": "Guía Familiar",
+    "palabras_clave": ["niños", "familia", "parques temáticos", "playas", "actividades infantiles"]
+  },
+  {
+    "nombre_archivo": "Diversidad_culinaria.pdf",
+    "titulo": "Diversidad Culinaria en Tokio (Vegano/Halal)",
+    "ubicacion": "Tokio, Japón",
+    "categoria": "Gastronomía",
+    "palabras_clave": ["vegano", "vegetariano", "halal", "diversidad", "restricciones alimentarias"]
+  },
+  {
+    "nombre_archivo": "Espacios_singulares_ES.pdf",
+    "titulo": "Espacios Singulares para MICE en España",
+    "ubicacion": "España",
+    "categoria": "Negocios / Eventos",
+    "palabras_clave": ["MICE", "reuniones", "congresos", "lugares únicos", "eventos corporativos"]
+  },
+  {
+    "nombre_archivo": "Espana-General_ES.pdf",
+    "titulo": "Guía General de Turismo en España",
+    "ubicacion": "España",
+    "categoria": "Guía General",
+    "palabras_clave": ["información práctica", "transporte", "regiones", "clima", "moneda", "visado"]
+  },
+  {
+    "nombre_archivo": "Espana-lugar-reuniones-ES.pdf",
+    "titulo": "España: Lugar de Reuniones",
+    "ubicacion": "España",
+    "categoria": "Negocios / MICE",
+    "palabras_clave": ["convenciones", "negocios", "infraestructura", "ferias", "turismo de negocios"]
+  },
+  {
+    "nombre_archivo": "Fiestas_de_Espana_ES.pdf",
+    "titulo": "Calendario de Fiestas de España",
+    "ubicacion": "España",
+    "categoria": "Eventos / Fiestas",
+    "palabras_clave": ["calendario", "fechas", "celebraciones", "nacionales", "regionales"]
+  },
+  {
+    "nombre_archivo": "Fiestas_del_norte_de_España.pdf",
+    "titulo": "Fiestas del Norte de España",
+    "ubicacion": "España (Norte)",
+    "categoria": "Eventos / Fiestas",
+    "palabras_clave": ["San Fermín", "Semana Grande", "País Vasco", "Navarra", "Asturias", "verano"]
+  },
+  {
+    "nombre_archivo": "Fiestas_Espana.pdf",
+    "titulo": "Grandes Fiestas de España",
+    "ubicacion": "España",
+    "categoria": "Eventos / Fiestas",
+    "palabras_clave": ["Fallas", "Feria de Abril", "Tomatina", "Carnaval", "cultura popular"]
+  },
+  {
+    "nombre_archivo": "Iluminacion_Invierno.pdf",
+    "titulo": "Iluminación de Invierno en Tokio",
+    "ubicacion": "Tokio, Japón",
+    "categoria": "Evento Estacional",
+    "palabras_clave": ["luces", "navidad", "invierno", "romántico", "espectáculo", "noche"]
+  },
+  {
+    "nombre_archivo": "Interior_Espana_ES.pdf",
+    "titulo": "Turismo de Interior en España",
+    "ubicacion": "España",
+    "categoria": "Turismo Rural / Cultural",
+    "palabras_clave": ["pueblos", "patrimonio", "naturaleza", "desconexión", "interior", "rutas"]
+  },
+  {
+    "nombre_archivo": "invierno.pdf",
+    "titulo": "Guía de Invierno en Tokio",
+    "ubicacion": "Tokio, Japón",
+    "categoria": "Guía Estacional",
+    "palabras_clave": ["invierno", "frío", "actividades", "onsen", "comida caliente", "enero", "febrero"]
+  },
+  {
+    "nombre_archivo": "Isla_de_Aogashima.pdf",
+    "titulo": "Isla de Aogashima: Volcán y Estrellas",
+    "ubicacion": "Tokio (Islas), Japón",
+    "categoria": "Naturaleza / Aventura",
+    "palabras_clave": ["isla remota", "volcán", "estrellas", "naturaleza salvaje", "aventura", "camping"]
+  },
+  {
+    "nombre_archivo": "izakaya_japonesa.pdf",
+    "titulo": "Guía de Izakayas Japonesas",
+    "ubicacion": "Tokio, Japón",
+    "categoria": "Gastronomía / Ocio",
+    "palabras_clave": ["bar", "tapas japonesas", "bebida", "sake", "cultura nocturna", "afterwork"]
+  },
+  {
+    "nombre_archivo": "La_mejor_epoca_para_visitar_tokio.pdf",
+    "titulo": "Mejor época para visitar Tokio",
+    "ubicacion": "Tokio, Japón",
+    "categoria": "Planificación",
+    "palabras_clave": ["clima", "temporadas", "estaciones", "cuándo ir", "consejos de viaje"]
+  },
+  {
+    "nombre_archivo": "Legoland.pdf",
+    "titulo": "Legoland Discovery Center Tokio",
+    "ubicacion": "Tokio (Odaiba), Japón",
+    "categoria": "Entretenimiento / Familia",
+    "palabras_clave": ["niños", "lego", "parque temático", "juegos", "odaiba", "interior"]
+  },
+  {
+    "nombre_archivo": "Luciernagas.pdf",
+    "titulo": "Avistamiento de Luciérnagas en Tokio",
+    "ubicacion": "Tokio, Japón",
+    "categoria": "Naturaleza / Evento",
+    "palabras_clave": ["luciérnagas", "junio", "naturaleza", "ríos", "noche", "romántico"]
+  },
+  {
+    "nombre_archivo": "matcha.pdf",
+    "titulo": "Guía del Matcha en Tokio",
+    "ubicacion": "Tokio, Japón",
+    "categoria": "Gastronomía",
+    "palabras_clave": ["té verde", "matcha", "dulces", "cafeterías", "tradición", "postres"]
+  },
+  {
+    "nombre_archivo": "Monte_Takao.pdf",
+    "titulo": "Excursión al Monte Takao",
+    "ubicacion": "Tokio (Hachioji), Japón",
+    "categoria": "Naturaleza / Senderismo",
+    "palabras_clave": ["montaña", "trekking", "naturaleza", "vistas", "templo", "escapada"]
+  },
+  {
+    "nombre_archivo": "Nippori.pdf",
+    "titulo": "Barrio de Nippori y Calle de las Telas",
+    "ubicacion": "Tokio, Japón",
+    "categoria": "Barrio / Compras",
+    "palabras_clave": ["textil", "telas", "barrio tradicional", "yanaka", "gatos", "artesanía"]
+  },
+  {
+    "nombre_archivo": "Observatorio_Sunshine.pdf",
+    "titulo": "Observatorio Sunshine 60 (Tenbou-Park)",
+    "ubicacion": "Tokio (Ikebukuro), Japón",
+    "categoria": "Atracción / Vistas",
+    "palabras_clave": ["mirador", "ikebukuro", "vistas panorámicas", "rascacielos", "altura", "atardecer"]
+  },
+  {
+    "nombre_archivo": "otonio.pdf",
+    "titulo": "Guía de Otoño en Tokio",
+    "ubicacion": "Tokio, Japón",
+    "categoria": "Guía Estacional",
+    "palabras_clave": ["otoño", "hojas rojas", "momiji", "koyo", "parques", "clima"]
+  },
+  {
+    "nombre_archivo": "primavera_tokio.pdf",
+    "titulo": "Guía de Primavera en Tokio",
+    "ubicacion": "Tokio, Japón",
+    "categoria": "Guía Estacional",
+    "palabras_clave": ["primavera", "cerezos", "sakura", "hanami", "flores", "parques"]
+  },
+  {
+    "nombre_archivo": "Puente_Azuma-bashi.pdf",
+    "titulo": "Puente Azuma-bashi y Río Sumida",
+    "ubicacion": "Tokio (Asakusa), Japón",
+    "categoria": "Monumento / Paseo",
+    "palabras_clave": ["puente", "río sumida", "fotos", "skytree", "asakusa", "vistas"]
+  },
+  {
+    "nombre_archivo": "Ramen_en_Tokio.pdf",
+    "titulo": "Guía de Ramen en Tokio",
+    "ubicacion": "Tokio, Japón",
+    "categoria": "Gastronomía",
+    "palabras_clave": ["fideos", "sopa", "ramen street", "barato", "comida rápida", "tipos de ramen"]
+  },
+  {
+    "nombre_archivo": "Restaurantes_Otakus.pdf",
+    "titulo": "Restaurantes y Cafés Temáticos Otaku",
+    "ubicacion": "Tokio, Japón",
+    "categoria": "Cultura Pop / Gastronomía",
+    "palabras_clave": ["anime", "manga", "cafés temáticos", "akihabara", "otaku", "friki"]
+  },
+  {
+    "nombre_archivo": "ryokanonsen.pdf",
+    "titulo": "Guía de Ryokan y Onsen",
+    "ubicacion": "Japón",
+    "categoria": "Alojamiento / Cultura",
+    "palabras_clave": ["baños termales", "hotel tradicional", "tatami", "yukata", "relax", "etiqueta"]
+  },
+  {
+    "nombre_archivo": "Sanfermin.pdf",
+    "titulo": "Los Sanfermines de Pamplona",
+    "ubicacion": "Pamplona, España",
+    "categoria": "Fiesta Popular",
+    "palabras_clave": ["encierro", "toros", "julio", "pamplona", "fiesta internacional", "tradición"]
+  },
+  {
+    "nombre_archivo": "Shibuya_Sky.pdf",
+    "titulo": "Shibuya Sky: Mirador Panorámico",
+    "ubicacion": "Tokio (Shibuya), Japón",
+    "categoria": "Atracción / Vistas",
+    "palabras_clave": ["mirador", "shibuya crossing", "rascacielos", "fotos", "aire libre", "moderno"]
+  },
+  {
+    "nombre_archivo": "sushi_en_Tokio.pdf",
+    "titulo": "Guía para comer Sushi en Tokio",
+    "ubicacion": "Tokio, Japón",
+    "categoria": "Gastronomía",
+    "palabras_clave": ["pescado crudo", "nigiri", "kaiten sushi", "mercado de pescado", "alta cocina"]
+  },
+  {
+    "nombre_archivo": "Tamborrada.pdf",
+    "titulo": "La Tamborrada de San Sebastián",
+    "ubicacion": "San Sebastián, España",
+    "categoria": "Fiesta Popular",
+    "palabras_clave": ["tambores", "enero", "san sebastián", "música", "desfile", "gastronomía"]
+  },
+  {
+    "nombre_archivo": "Tokio_a_primera_hora_de_la_mañana.pdf",
+    "titulo": "Guía de Tokio: Actividades Matutinas",
+    "ubicacion": "Tokio, Japón",
+    "categoria": "Guía Temática",
+    "palabras_clave": ["mañana", "desayuno", "mercados", "templos", "madrugadores", "amanecer"]
+  },
+  {
+    "nombre_archivo": "Tokio_de_noche.pdf",
+    "titulo": "Guía de Tokio: Vida Nocturna",
+    "ubicacion": "Tokio, Japón",
+    "categoria": "Guía Temática",
+    "palabras_clave": ["noche", "vida nocturna", "bares", "izakaya", "iluminación", "vistas nocturnas"]
+  },
+  {
+    "nombre_archivo": "Tokio_Skytree.pdf",
+    "titulo": "Tokyo Skytree: Guía de Visita",
+    "ubicacion": "Tokio, Japón",
+    "categoria": "Atracción Turística",
+    "palabras_clave": ["mirador", "torre", "vistas panorámicas", "oshiage", "altura", "observatorio"]
+  },
+  {
+    "nombre_archivo": "TOKYO_mizumachi.pdf",
+    "titulo": "Tokyo Mizumachi y Sumida River Walk",
+    "ubicacion": "Tokio, Japón",
+    "categoria": "Zona Comercial / Paseo",
+    "palabras_clave": ["compras", "río Sumida", "paseo", "asakusa", "skytree", "tiendas"]
+  },
+  {
+    "nombre_archivo": "Tomatina.pdf",
+    "titulo": "La Tomatina de Buñol",
+    "ubicacion": "Buñol, Valencia, España",
+    "categoria": "Fiesta Popular",
+    "palabras_clave": ["fiesta", "tomates", "batalla", "agosto", "tradición", "valencia"]
+  },
+  {
+    "nombre_archivo": "tours_autobus.pdf",
+    "titulo": "Tours en Autobús por Tokio",
+    "ubicacion": "Tokio, Japón",
+    "categoria": "Transporte / Turismo",
+    "palabras_clave": ["autobús turístico", "sightseeing", "hop-on hop-off", "recorrido", "guía"]
+  },
+  {
+    "nombre_archivo": "tours_helicoptero_tokyo.pdf",
+    "titulo": "Tours en Helicóptero en Tokio",
+    "ubicacion": "Tokio, Japón",
+    "categoria": "Turismo de Lujo / Aventura",
+    "palabras_clave": ["helicóptero", "vistas panorámicas", "lujo", "noche", "tokyo tower", "experiencia aérea"]
+  },
+  {
+    "nombre_archivo": "Toyosu_Senkyaku_Banrai.pdf",
+    "titulo": "Toyosu Senkyaku Banrai",
+    "ubicacion": "Tokio, Japón",
+    "categoria": "Gastronomía / Ocio",
+    "palabras_clave": ["mercado de pescado", "onsen", "aguas termales", "comida callejera", "edo", "toyosu"]
+  },
+  {
+    "nombre_archivo": "Turismo-rural-ES.pdf",
+    "titulo": "Guía de Turismo Rural en España",
+    "ubicacion": "España",
+    "categoria": "Turismo Rural",
+    "palabras_clave": ["naturaleza", "campo", "alojamiento rural", "senderismo", "pueblos", "desconexión"]
+  },
+  {
+    "nombre_archivo": "verano.pdf",
+    "titulo": "Guía de Verano en Tokio",
+    "ubicacion": "Tokio, Japón",
+    "categoria": "Guía Estacional",
+    "palabras_clave": ["verano", "calor", "fuegos artificiales", "hanabi", "festivales", "playa"]
+  },
+  {
+    "nombre_archivo": "Yotsugi.pdf",
+    "titulo": "Barrio de Yotsugi: Cuna de Captain Tsubasa",
+    "ubicacion": "Tokio, Japón",
+    "categoria": "Anime / Cultura Pop",
+    "palabras_clave": ["anime", "manga", "captain tsubasa", "oliver y benji", "fútbol", "peregrinación"]
+  }
+]

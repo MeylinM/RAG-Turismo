@@ -30,7 +30,7 @@ utils.setup_logging()
 logger = logging.getLogger("eval_auto")
 
 # Base de datos ChromaDB
-DB_DIR = str(utils.project_root() / "chroma_db_multimodal_v2")  # tu DB real
+DB_DIR = str(utils.project_root() / "chroma_db_multimodal")  # tu DB real
 COLLECTION_NAME = "documentos_multimodal_texto"  # colección de chunks de texto
 GOLDEN_SET_FILE = str(utils.project_root() / "data" / "golden_set_automatico.jsonl")
 

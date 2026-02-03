@@ -30,7 +30,7 @@ IMAGENES_DIR = Path("../data/imagenes_extraidas")
 METADATA_MANUAL_PATH = Path("../data/metadatos_pdfs.json")
 
 # ChromaDB
-DB_DIR = "../chroma_db_multimodal_v2"
+DB_DIR = "../chroma_db_multimodal"
 COLLECTION_NAME = "documentos_multimodal"
 
 # Modelos

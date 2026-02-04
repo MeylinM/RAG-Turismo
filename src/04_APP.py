@@ -28,7 +28,7 @@ for message in st.session_state.messages:
                     # Ajuste de ruta si es necesario (depende de desde dónde ejecutes streamlit)
                     # Si la API devuelve rutas relativas, aquí podrías necesitar ajustarlas
                     image = Image.open(img_path)
-                    cols[idx].image(image, caption=os.path.basename(img_path), use_container_width=True)
+                    cols[idx].image(image, caption=os.path.basename(img_path), width="stretch")
                 except Exception as e:
                     cols[idx].error(f"No se pudo cargar imagen: {img_path}")
 
@@ -67,7 +67,7 @@ if prompt := st.chat_input("Ej: ¿Qué ver en Kioto en primavera?"):
                         for idx, img_path in enumerate(images):
                             try:
                                 img = Image.open(img_path)
-                                cols[idx].image(img, caption="Recuperado por CLIP", use_container_width=True)
+                                cols[idx].image(img, caption="Recuperado por CLIP", width="stretch")
                             except:
                                 cols[idx].warning(f"Imagen no encontrada: {img_path}")
                     

@@ -42,7 +42,7 @@ logger.info(f"GOLDEN_SET_FILE: {GOLDEN_SET_FILE}")
 LLM_API_KEY = os.getenv("LLM_API_KEY")
 LLM_BASE_URL = os.getenv("LLM_BASE_URL")
 MODELO_LLM = os.getenv("MODELO_LLM", "deepseek-r1:8b")
-MODELO_EMBEDDINGS = os.getenv("MODELO_EMBEDDINGS", "Qwen/Qwen3-Embedding-0.6B")
+MODELO_EMBEDDINGS = os.getenv("MODELO_EMBEDDINGS", "intfloat/multilingual-e5-base")
 
 # ============================================================================ 
 # FUNCIONES PARA GENERAR PREGUNTAS
@@ -59,7 +59,7 @@ def generar_pregunta_para_chunk(texto_chunk, metadata, client_llm):
 
 INSTRUCCIONES:
 1. Lee el texto y formula UNA pregunta clara y específica.
-2. La pregunta debe ser NATURAL, como si un estudiante la hiciera.
+2. La pregunta debe ser NATURAL, como si una persona sin conocimientos del tema la hiciera.
 3. NO uses frases como "según el texto", "del documento", "proporcionado".
 4. Devuelve SOLO la pregunta, sin explicaciones.
 """
@@ -149,7 +149,9 @@ def evaluar_retrieval(collection, model_emb, golden_set, top_k=3):
         pregunta = item['query']
         target_ids = item['relevant_ids']
 
-        query_emb = utils.generar_embeddings(model_emb, [pregunta])
+        query_formateada = f"query: {pregunta}"
+
+        query_emb = utils.generar_embeddings(model_emb, [query_formateada])
         results = collection.query(
             query_embeddings=query_emb,
             n_results=top_k

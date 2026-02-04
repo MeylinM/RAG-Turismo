@@ -76,9 +76,6 @@ def generar_respuesta(query: str, top_k: int = 3) -> Dict:
             contexto_textual.append(f"--- Fuente: {nombre_pdf} ---\n{doc}")
 
     if res_img['ids'] and res_img['metadatas']:
-            # Definimos la carpeta real donde están las fotos (dentro de tu proyecto)
-            # Esto asume que meylin_Frankie.py está en una subcarpeta (ej. src/). 
-            # Si está en la raíz, quita un .parent
             PROYECTO_ROOT = Path(__file__).resolve().parent.parent 
             CARPETA_IMAGENES = PROYECTO_ROOT / "data" / "imagenes_extraidas"
 

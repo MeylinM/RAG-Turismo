@@ -3,7 +3,7 @@ import time
 from typing import List, Dict
 from fastapi import FastAPI
 from pydantic import BaseModel
-from modelo_base import generar_respuesta  # <-- tu lógica RAG separada
+from modelo_base import generar_respuesta
 
 app = FastAPI(title="RAG Turismo Japón-España", version="1.0")
 

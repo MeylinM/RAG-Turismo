@@ -7,6 +7,7 @@ from sentence_transformers import SentenceTransformer
 import chromadb
 from openai import OpenAI
 from dotenv import load_dotenv
+from rrf import buscar_texto_hibrido
 
 load_dotenv()
 
@@ -56,8 +57,7 @@ def generar_respuesta(query: str, top_k: int = 3) -> Dict:
     col_txt, col_img = get_collections()
     
     # Búsqueda de texto
-    emb_txt = model_txt.encode(f"query: {query}", normalize_embeddings=True).tolist()
-    res_txt = col_txt.query(query_embeddings=[emb_txt], n_results=top_k)
+    res_txt = buscar_texto_hibrido(query, col_txt, model_txt, top_k=top_k)
 
     # Búsqueda de imágenes
     emb_img = model_clip.encode(query, normalize_embeddings=True).tolist()

@@ -1,114 +1,191 @@
+# src/modelo_base.py
+
 import os
 import logging
-from functools import lru_cache
 from typing import List, Dict
 from pathlib import Path
-from sentence_transformers import SentenceTransformer
-import chromadb
-from openai import OpenAI
 from dotenv import load_dotenv
-from rrf import buscar_texto_hibrido
+from openai import OpenAI
+import chromadb
+from sentence_transformers import SentenceTransformer
 
+# --- TUS MÓDULOS AVANZADOS (Arquitectura Modular) ---
+from rrf import obtener_ranking_bm25, fusionar_rrf
+from reranker import RerankingSystem
+from query_rewriting import QueryRewriter 
+from semantic_router import SemanticRouter
+
+# Configuración inicial
 load_dotenv()
+logger = logging.getLogger("RAG_Orquestador")
 
-logger = logging.getLogger("RAG_Model")
-
-# Configuración
-
+# Rutas
 BASE_DIR = Path(__file__).resolve().parent.parent
 DB_DIR = BASE_DIR / "chroma_db_multimodal"
-COLLECTION_NAME = "documentos_multimodal"
+COLLECTION_TEXTO = "documentos_multimodal_texto"
+COLLECTION_IMAGEN = "documentos_multimodal_imagen"
 
-MODELO_TEXTO_NAME = "intfloat/multilingual-e5-base"
-MODELO_IMAGEN_NAME = "clip-ViT-B-32"
+# --- INICIALIZACIÓN GLOBAL (Se ejecuta una vez al arrancar) ---
+# 1. Base de Datos
+client_chroma = chromadb.PersistentClient(path=str(DB_DIR))
+col_texto = client_chroma.get_collection(COLLECTION_TEXTO)
+col_imagen = client_chroma.get_collection(COLLECTION_IMAGEN)
 
-client_llm = OpenAI(
-    base_url=os.getenv("LLM_BASE_URL"),
-    api_key=os.getenv("LLM_API_KEY")
-)
+# 2. Modelos de Embeddings (Ligeros)
+model_emb_texto = SentenceTransformer("intfloat/multilingual-e5-base")
+model_emb_imagen = SentenceTransformer("clip-ViT-B-32")
 
-# -------------------------
-# Carga de modelos y colecciones
-# -------------------------
-@lru_cache(maxsize=1)
-def get_models():
-    logger.info("Cargando modelos de Embedding (Texto + Imagen)...")
-    mod_txt = SentenceTransformer(MODELO_TEXTO_NAME)
-    mod_img = SentenceTransformer(MODELO_IMAGEN_NAME)
-    return mod_txt, mod_img
+# 3. Cliente LLM
+client_llm = OpenAI(base_url=os.getenv("LLM_BASE_URL"), api_key=os.getenv("LLM_API_KEY"))
 
-@lru_cache(maxsize=1)
-def get_collections():
-    logger.info(f"Conectando a ChromaDB en: {DB_DIR}")
-    client = chromadb.PersistentClient(path=DB_DIR)
+# 4. Instancias de tus Técnicas Avanzadas
+rewriter = QueryRewriter()
+router = SemanticRouter()
+reranker = RerankingSystem()
+
+def generar_respuesta(query_usuario: str, top_k: int = 5):
+    """
+    Pipeline RAG Avanzado (SAA 100%):
+    1. Rewriting -> 2. Routing -> 3. Hybrid Search (RRF) -> 4. Reranking -> 5. Generation
+    """
     
-    logger.warning(f"Usando DB_DIR = {DB_DIR}")
-    print("DB_DIR =", DB_DIR)
-
-    col_txt = client.get_collection(name=f"{COLLECTION_NAME}_texto")
-    col_img = client.get_collection(name=f"{COLLECTION_NAME}_imagen")
-    return col_txt, col_img
-
-# -------------------------
-# Función principal de RAG
-# -------------------------
-def generar_respuesta(query: str, top_k: int = 3) -> Dict:
-    model_txt, model_clip = get_models()
-    col_txt, col_img = get_collections()
+    # ==========================================
+    # PASO 1: QUERY REWRITING (Mejora la pregunta)
+    # ==========================================
+    query_optimizada = rewriter.reescribir(query_usuario)
     
-    # Búsqueda de texto
-    res_txt = buscar_texto_hibrido(query, col_txt, model_txt, top_k=top_k)
+    # ==========================================
+    # PASO 2: SEMANTIC ROUTING (Filtra por país)
+    # ==========================================
+    filtros_metadata = router.detectar_filtros(query_optimizada)
+    
+    # ==========================================
+    # PASO 3: RETRIEVAL HÍBRIDO (RRF)
+    # ==========================================
+    
+    # 3.1 Vector Search (Semántico) - APLICANDO FILTROS
+    emb_query = model_emb_texto.encode(f"query: {query_optimizada}").tolist()
+    
+    # Pedimos 20 candidatos iniciales
+    res_sem = col_texto.query(
+        query_embeddings=[emb_query],
+        n_results=20,
+        where=filtros_metadata # <--- APLICAMOS ROUTING AQUÍ
+    )
+    ids_semanticos = res_sem['ids'][0] if res_sem['ids'] else []
 
-    # Búsqueda de imágenes
-    emb_img = model_clip.encode(query, normalize_embeddings=True).tolist()
-    res_img = col_img.query(query_embeddings=[emb_img], n_results=2)
+    # 3.2 Keyword Search (BM25)
+    # Nota: Traemos ids globales para BM25 y dejamos que RRF decida
+    todos_docs = col_texto.get() 
+    ids_bm25 = obtener_ranking_bm25(
+        query_optimizada, 
+        todos_docs['ids'], 
+        todos_docs['documents'], 
+        top_n=20
+    )
 
-    # Procesamiento
-    contexto_textual = []
-    lista_fuentes = set()
-    lista_imagenes_path = []
+    # 3.3 Fusión RRF (Cruce de listas)
+    ranked_tuples = fusionar_rrf(ids_semanticos, ids_bm25, k=60)
+    top_ids_fusionados = [x[0] for x in ranked_tuples[:15]] # Top 15 para reranking
 
-    if res_txt['ids'] and res_txt['documents']:
-        for i, doc in enumerate(res_txt['documents'][0]):
-            meta = res_txt['metadatas'][0][i]
-            nombre_pdf = meta.get('origen_pdf', 'desconocido')
-            lista_fuentes.add(nombre_pdf)
-            contexto_textual.append(f"--- Fuente: {nombre_pdf} ---\n{doc}")
+    if not top_ids_fusionados:
+        # Fallback si no encuentra nada
+        return {
+            "respuesta": "Lo siento, no he encontrado información relevante en mis guías.", 
+            "fuentes": [], 
+            "imagenes": [], 
+            "contexto_usado": ""
+        }
 
-    if res_img['ids'] and res_img['metadatas']:
-            PROYECTO_ROOT = Path(__file__).resolve().parent.parent 
-            CARPETA_IMAGENES = PROYECTO_ROOT / "data" / "imagenes_extraidas"
+    # Recuperamos el contenido completo de los ganadores del RRF
+    docs_candidatos = col_texto.get(ids=top_ids_fusionados, include=["documents", "metadatas"])
 
-            for i, meta in enumerate(res_img['metadatas'][0]):
-                nombre_img = meta.get('imagen_nombre')
-                
-                # Construimos la ruta real ignorando la que viene mal de la DB
-                full_path = CARPETA_IMAGENES / nombre_img
+    # ==========================================
+    # PASO 4: RE-RANKING (Cross-Encoder)
+    # ==========================================
+    lista_para_rerank = []
+    for i in range(len(docs_candidatos['ids'])):
+        # Protección extra por si falta metadata
+        meta = docs_candidatos['metadatas'][i] if docs_candidatos['metadatas'][i] else {}
+        
+        lista_para_rerank.append({
+            "texto": docs_candidatos['documents'][i],
+            "metadata": meta,
+            "id": docs_candidatos['ids'][i]
+        })
 
-                if full_path.exists():
-                    lista_imagenes_path.append(str(full_path))
-                    contexto_textual.append(f"[SISTEMA: Se muestra la imagen {nombre_img}]")
-                    logger.info(f"✅ Imagen encontrada: {full_path}")
-                else:
-                    logger.warning(f"❌ No existe en: {full_path}")
-    # Generar respuesta LLM
-    contexto_str = "\n\n".join(contexto_textual)
-    system_prompt = """Eres un asistente turístico experto en Japón y España.
-    Responde usando SOLO la información del contexto. Si se muestra una imagen, puedes mencionarla."""
+    # El reranker selecciona los definitivos (top_k)
+    mejores_docs = reranker.rerank(query_optimizada, lista_para_rerank, top_k=top_k)
+
+    # ==========================================
+    # PASO 5: RECUPERACIÓN MULTIMODAL (Imágenes)
+    # ==========================================
+    emb_img = model_emb_imagen.encode(query_usuario).tolist()
+    res_img = col_imagen.query(query_embeddings=[emb_img], n_results=3)
+    
+    rutas_imagenes = []
+    if res_img['ids'] and res_img['ids'][0]:
+         for meta in res_img['metadatas'][0]:
+             if meta and 'imagen_path' in meta:
+                 # --- CORRECCIÓN DE RUTAS ---
+                 # 1. Obtenemos solo el nombre del archivo (ej: "foto.jpg") limpiando rutas viejas
+                 nombre_archivo = os.path.basename(meta['imagen_path'])
+                 
+                 # 2. Construimos la ruta ABSOLUTA fiable
+                 # BASE_DIR apunta a la raiz del proyecto, así que vamos a data/imagenes_extraidas
+                 ruta_absoluta = BASE_DIR / "data" / "imagenes_extraidas" / nombre_archivo
+                 
+                 # 3. Verificamos que existe antes de enviarla
+                 if ruta_absoluta.exists():
+                     rutas_imagenes.append(str(ruta_absoluta))
+                 else:
+                     logger.warning(f"Imagen no encontrada en disco: {ruta_absoluta}")
+
+    # ==========================================
+    # PASO 6: GENERACIÓN CON LLM (Con corrección de error)
+    # ==========================================
+    
+    # --- AQUÍ ESTABA EL ERROR ---
+    # Usamos .get() para evitar que falle si falta "nombre_archivo"
+    contexto_texto = "\n\n".join([
+        f"--- Fuente: {d['documento']['metadata'].get('nombre_archivo', 'Doc Desconocido')} (Score: {d['score_rerank']:.2f}) ---\n{d['documento']['texto']}" 
+        for d in mejores_docs
+    ])
+    # ----------------------------
+
+    prompt_sistema = """
+    ERES UN GUÍA TURÍSTICO EXPERTO Y ENTUSIASTA DE JAPÓN Y ESPAÑA.
+    Tu misión es ayudar a los viajeros respondiendo basándote EXCLUSIVAMENTE en el contexto proporcionado.
+    
+    NORMAS:
+    1. Usa SOLO la información del contexto. NO inventes.
+    2. Si la respuesta no está, dilo honestamente.
+    3. Usa negritas para lugares importantes.
+    """
+    
+    prompt_usuario = f"Pregunta viajero: {query_usuario}\n\nContexto:\n{contexto_texto}"
 
     response = client_llm.chat.completions.create(
-        model=os.getenv("MODELO_LLM", "gpt-3.5-turbo"),
+        model=os.getenv("MODELO_LLM", "llama3-70b-8192"),
         messages=[
-            {"role": "system", "content": system_prompt},
-            {"role": "user", "content": f"Pregunta: {query}\n\nContexto:\n{contexto_str}"}
+            {"role": "system", "content": prompt_sistema},
+            {"role": "user", "content": prompt_usuario}
         ],
         temperature=0.3
     )
-    answer = response.choices[0].message.content
+
+    # ==========================================
+    # RETORNO SEGURO
+    # ==========================================
+    # También protegemos aquí la lista de fuentes
+    lista_fuentes = list(set([
+        d['documento']['metadata'].get('nombre_archivo', 'Desconocido') 
+        for d in mejores_docs
+    ]))
 
     return {
-        "respuesta": answer,
-        "fuentes": list(lista_fuentes),
-        "imagenes": lista_imagenes_path,
-        "contexto_usado": contexto_textual
+        "respuesta": response.choices[0].message.content,
+        "fuentes": lista_fuentes,
+        "imagenes": rutas_imagenes,
+        "contexto_usado": contexto_texto
     }

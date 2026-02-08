@@ -1,4 +1,2 @@
 .env
-chroma_db_multimodal/
 __pycache__/
-imagenes_extraidas/

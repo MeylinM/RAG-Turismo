@@ -13,6 +13,9 @@ app = FastAPI(title="RAG Turismo Japón-España", version="1.0")
 class ChatRequest(BaseModel):
     query: str
     top_k: int = 3
+    # CAMBIO: Nuevo campo para el historial de mensajes (memoria)
+    # Por defecto es una lista vacía para no romper llamadas simples
+    historial: List[Dict] = [] 
 
 class ChatResponse(BaseModel):
     respuesta: str
@@ -37,13 +40,22 @@ def chat_endpoint(request: ChatRequest):
     Endpoint principal para preguntas de turismo.
     """
     t_start = time.time()
-    res = generar_respuesta(request.query, top_k=request.top_k)
+    
+    # CAMBIO: Pasamos el historial recibido en la request a la lógica del RAG
+    res = generar_respuesta(
+        request.query, 
+        top_k=request.top_k, 
+        historial=request.historial
+    )
 
     return ChatResponse(
         respuesta=res["respuesta"],
         fuentes=res["fuentes"],
         imagenes=res["imagenes"],
-        debug_info={"contexto_usado": res["contexto_usado"], "tiempo_segundos": time.time() - t_start}
+        debug_info={
+            "contexto_usado": res["contexto_usado"], 
+            "tiempo_segundos": time.time() - t_start
+        }
     )
 
 # ==========================

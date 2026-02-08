@@ -2,7 +2,7 @@
 
 import os
 import logging
-from typing import List, Dict
+from typing import List, Dict, Optional
 from pathlib import Path
 from dotenv import load_dotenv
 from openai import OpenAI
@@ -25,6 +25,19 @@ DB_DIR = BASE_DIR / "chroma_db_multimodal"
 COLLECTION_TEXTO = "documentos_multimodal_texto"
 COLLECTION_IMAGEN = "documentos_multimodal_imagen"
 
+# --- FUNCIONES DE SEGURIDAD (NUEVO) ---
+def validar_seguridad(query: str) -> bool:
+    """Detecta intentos básicos de Prompt Injection."""
+    frases_prohibidas = [
+        "ignora tus instrucciones", "olvida tus reglas", "ignore previous instructions",
+        "actúa como", "tu nuevo rol es", "system override"
+    ]
+    query_lower = query.lower()
+    for frase in frases_prohibidas:
+        if frase in query_lower:
+            return False
+    return True
+
 # --- INICIALIZACIÓN GLOBAL (Se ejecuta una vez al arrancar) ---
 # 1. Base de Datos
 client_chroma = chromadb.PersistentClient(path=str(DB_DIR))
@@ -43,12 +56,27 @@ rewriter = QueryRewriter()
 router = SemanticRouter()
 reranker = RerankingSystem()
 
-def generar_respuesta(query_usuario: str, top_k: int = 5):
+def generar_respuesta(query_usuario: str, top_k: int = 3, historial: list = None):
     """
     Pipeline RAG Avanzado (SAA 100%):
-    1. Rewriting -> 2. Routing -> 3. Hybrid Search (RRF) -> 4. Reranking -> 5. Generation
+    1. Seguridad -> 2. Rewriting -> 3. Routing -> 4. Hybrid Search (RRF) -> 5. Reranking -> 6. Generation
     """
     
+    # ==========================================
+    # PASO 0: SEGURIDAD ANTES DE NADA (NUEVO)
+    # ==========================================
+    if not validar_seguridad(query_usuario):
+        return {
+            "respuesta": "Lo siento, no puedo procesar esa solicitud por motivos de seguridad.",
+            "fuentes": [],
+            "imagenes": [],
+            "contexto_usado": "Bloqueado por seguridad"
+        }
+
+    # Inicialización del historial si es None
+    if historial is None:
+        historial = []
+
     # ==========================================
     # PASO 1: QUERY REWRITING (Mejora la pregunta)
     # ==========================================
@@ -128,14 +156,9 @@ def generar_respuesta(query_usuario: str, top_k: int = 5):
          for meta in res_img['metadatas'][0]:
              if meta and 'imagen_path' in meta:
                  # --- CORRECCIÓN DE RUTAS ---
-                 # 1. Obtenemos solo el nombre del archivo (ej: "foto.jpg") limpiando rutas viejas
                  nombre_archivo = os.path.basename(meta['imagen_path'])
-                 
-                 # 2. Construimos la ruta ABSOLUTA fiable
-                 # BASE_DIR apunta a la raiz del proyecto, así que vamos a data/imagenes_extraidas
                  ruta_absoluta = BASE_DIR / "data" / "imagenes_extraidas" / nombre_archivo
                  
-                 # 3. Verificamos que existe antes de enviarla
                  if ruta_absoluta.exists():
                      rutas_imagenes.append(str(ruta_absoluta))
                  else:
@@ -145,13 +168,10 @@ def generar_respuesta(query_usuario: str, top_k: int = 5):
     # PASO 6: GENERACIÓN CON LLM (Con corrección de error)
     # ==========================================
     
-    # --- AQUÍ ESTABA EL ERROR ---
-    # Usamos .get() para evitar que falle si falta "nombre_archivo"
     contexto_texto = "\n\n".join([
         f"--- Fuente: {d['documento']['metadata'].get('nombre_archivo', 'Doc Desconocido')} (Score: {d['score_rerank']:.2f}) ---\n{d['documento']['texto']}" 
         for d in mejores_docs
     ])
-    # ----------------------------
 
     prompt_sistema = """
     ERES UN GUÍA TURÍSTICO EXPERTO Y ENTUSIASTA DE JAPÓN Y ESPAÑA.
@@ -165,19 +185,25 @@ def generar_respuesta(query_usuario: str, top_k: int = 5):
     
     prompt_usuario = f"Pregunta viajero: {query_usuario}\n\nContexto:\n{contexto_texto}"
 
+    # Construcción de mensajes con historial
+    messages_finales = [{"role": "system", "content": prompt_sistema}]
+    
+    # Añadimos el historial previo (si existe)
+    if historial:
+        messages_finales.extend(historial)
+        
+    # Añadimos la pregunta actual con el contexto inyectado
+    messages_finales.append({"role": "user", "content": prompt_usuario})
+
     response = client_llm.chat.completions.create(
         model=os.getenv("MODELO_LLM", "llama3-70b-8192"),
-        messages=[
-            {"role": "system", "content": prompt_sistema},
-            {"role": "user", "content": prompt_usuario}
-        ],
+        messages=messages_finales,
         temperature=0.3
     )
 
     # ==========================================
     # RETORNO SEGURO
     # ==========================================
-    # También protegemos aquí la lista de fuentes
     lista_fuentes = list(set([
         d['documento']['metadata'].get('nombre_archivo', 'Desconocido') 
         for d in mejores_docs

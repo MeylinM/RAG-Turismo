@@ -1,0 +1,9 @@
+/* style.css */
+
+/* 1. Fondo de la aplicación */
+.stApp {
+    background-image: url("data:image/png;base64,{img_bg}");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}

@@ -7,3 +7,85 @@
     background-position: center;
     background-attachment: fixed;
 }
+/* Hacer el fondo del header transparente */
+header[data-testid="stHeader"] {
+    background-color: transparent;
+}
+
+/* Ajustes para el contenedor del chat para que no se pegue a los bordes */
+.stMainBlockContainer {
+    padding: 0.5rem;
+    max-width: 1400px !important; 
+    margin-left: auto;           /* Centra a la izquierda */
+    margin-right: auto;          /* Centra a la derecha */
+}
+
+/* Estilo del PANEL LATERAL (Sidebar) */
+section[data-testid="stSidebar"] {
+    background-color: #DDEcfc; /* El azul claro de tu diseño */
+}
+
+/* Título del Panel de Control (H1 dentro del sidebar) */
+section[data-testid="stSidebar"] h1 {
+    color: #012a63;
+    font-weight: 800;
+    text-transform: uppercase;
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+/* Estilo de los BOTONES (Redondeados y Azules) */
+div.stButton > button {
+    background-color: #0047AB; /* Azul oscuro corporativo */
+    color: white;
+    border-radius: 15px; 
+    border: none;
+    padding: 0.5rem 1rem;
+    font-weight: bold;
+    width: 150%;               /* Que ocupen todo el ancho disponible */
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    transition: all 0.3s ease;
+}
+
+/* Efecto al pasar el ratón por encima del botón */
+div.stButton > button:hover {
+    background-color: #e5008c;
+    transform: translateY(-2px); /* Pequeño efecto de elevación */
+    box-shadow: 0 6px 8px rgba(0,0,0,0.2);
+    color: white;
+}
+
+/* Ajustes del chat */
+
+/* ==========================================
+   5. NUEVO DISEÑO DE LA BARRA DE CHAT
+   ========================================== */
+
+/* Aquí es donde damos forma al cuadro de escritura */
+div[data-testid="stChatInput"] {
+    background-color: rgba(255, 255, 255, 0.95) !important; /* Blanco casi puro */
+    border-radius: 20px ;       /* Bordes muy redondos */
+    border: 2px solid #0047AB !important; /* Borde azul corporativo fino */
+    box-shadow: 0 4px 15px rgba(0,0,0,0.2) !important; /* Sombra para que "flote" */
+    padding: 5px !important;              /* Espacio interno */
+    margin-bottom: 20px;                  /* Separación del borde final de la pantalla */         
+    margin-left: auto;                    /* Centrado automático */
+    margin-right: auto;                   /* Centrado automático */
+}
+
+/* Ajustes del área de texto interna */
+textarea[data-testid="stChatInputTextArea"] {
+    color: #012a63 !important; /* Texto azul oscuro al escribir */
+    caret-color: #e5008c;      /* El cursor parpadeante en rosa (toque de diseño) */
+}
+
+/* Boton de enviar */
+button[data-testid="stChatInputSubmitButton"] {
+    background-color: transparent !important;
+    color: #0047AB !important; /* Color del icono */
+}
+
+button[data-testid="stChatInputSubmitButton"]:hover {
+    color: #e5008c !important; /* Cambia a rosa al pasar el mouse */
+    background-color: transparent !important;
+}

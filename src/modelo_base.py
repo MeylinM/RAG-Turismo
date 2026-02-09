@@ -80,8 +80,20 @@ def generar_respuesta(query_usuario: str, top_k: int = 3, historial: list = None
     # ==========================================
     # PASO 1: QUERY REWRITING (Mejora la pregunta)
     # ==========================================
-    query_optimizada = rewriter.reescribir(query_usuario)
-    
+    query_para_rewriting = query_usuario
+
+    # 2. Si hay historial, la actualizamos para incluir el contexto
+    if historial:
+        # Tomamos los últimos mensajes para dar contexto
+        ultimos_mensajes = historial[-6:]
+        texto_historial = " ".join([m["content"] for m in ultimos_mensajes])
+        
+        # Creamos una query compuesta: "Contexto previo... + Pregunta nueva"
+        query_para_rewriting = f"Contexto de la conversación: {texto_historial}. Pregunta actual del usuario: {query_usuario}"
+        
+        logger.info(f"Memoria inyectada en búsqueda: {query_para_rewriting[:100]}...")
+
+    query_optimizada = rewriter.reescribir(query_para_rewriting)
     # ==========================================
     # PASO 2: SEMANTIC ROUTING (Filtra por país)
     # ==========================================

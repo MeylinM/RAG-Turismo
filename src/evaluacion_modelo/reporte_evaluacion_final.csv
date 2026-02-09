@@ -1,0 +1,586 @@
+pregunta,respuesta_ia,ground_truth,score_fidelidad,score_exactitud,tiene_imagenes,fuentes,tiempo_seg
+¿Cuál es el destino común de los itinerarios del Camino de Santiago y qué se encuentra en ese lugar?,"**El destino común de los itinerarios del Camino de Santiago es la ciudad de Santiago de Compostela.**
+
+En ese lugar se encuentra la **Catedral de Santiago de Compostela**, que es un tesoro arquitectónico y un símbolo del legado cultural de España.","Según el texto, todos los itinerarios del Camino de Santiago tienen el mismo destino: la Catedral de Santiago de Compostela, en Galicia. En este lugar se encuentra la tumba del apóstol Santiago.",1,4,SI,['Desconocido'],5.47
+¿Qué fiestas españolas destaca la guía por ser espectaculares y reflejar costumbres ancestrales?,"La guía turística destaca las siguientes fiestas españolas por ser espectaculares y reflejar costumbres ancestrales:
+
+1. **Las Fallas de Valencia**: una de las más espectaculares y que reflejan una expresión única de costumbres ancestrales.
+2. **La Fiesta de los patios cordobeses**: otra de las más espectaculares y que reflejan costumbres ancestrales.
+3. **San Fermín, en Pamplona**: una de las más espectaculares y que refleja costumbres ancestrales.
+4. **Los Carnavales de Cádiz, Santa Cruz de Tenerife y Águilas**: destacan por su espectacularidad, originalidad y proyección internacional.
+5. **Las Moradas y Cristianos de Alcoy, en Alicante**: declaradas de Interés Turístico Internacional desde 1980 y consideradas como las primeras que se celebraron en toda la Comunidad Valenciana.","De acuerdo con el texto, algunas de las fiestas más espectaculares que reflejan expresiones únicas de costumbres ancestrales son las Fallas de Valencia, la Fiesta de los patios cordobeses y San Fermín en Pamplona.",1,4,SI,['Desconocido'],4.85
+¿Qué platos típicos y museos se recomienda visitar en Málaga?,"¡Hola! Me alegra ayudarte a planificar tu viaje a Málaga.
+
+**Platos típicos:**
+
+* Espectos (sardinas ensartadas para cocinarlas a la parrilla), un plato típico del verano en Málaga.
+
+**Museos:**
+
+* **Centro Pompidou de Málaga**: un museo de arte contemporáneo que ofrece propuestas culturales innovadoras.
+* **Museo Picasso**: un museo que alberga una importante colección de obras del artista español Pablo Picasso.
+* **Museo Alboraina**: un museo que exhibe restos de dos calamares gigantes, lo que puede ser una sorpresa interesante para los visitantes.
+* **Museo Interactivo de la Música (MIMMA)**: un museo que invita a los visitantes a sentir y tocar la música.
+* **Museo L’Iber**: un museo que cuenta con una impresionante colección de soldaditos de plomo.
+* **Museo de Ciencias Naturales**: un museo que ofrece una variedad de exposiciones sobre la naturaleza.
+
+Recuerda que Málaga cuenta con alrededor de 40 museos y salas de exposiciones, por lo que hay muchas opciones para elegir según tus intereses. ¡Disfruta tu viaje!","Se recomienda probar los tradicionales espetos, que son sardinas ensartadas cocinadas a la parrilla. Además, se sugiere visitar el Centro Pompidou, el Museo Picasso, el Museo Alboraina (donde hay restos de dos calamares gigantes) y el Museo Interactivo de la Música (MIMMA).",1,4,SI,['Desconocido'],5.02
+"¿Qué especies animales se pueden encontrar en la zona descrita como el ""Serengueti español""?","Lo siento, pero no hay información sobre un ""Serengueti español"" en el contexto proporcionado. Sin embargo, se menciona el Parque de Doñana, que se describe como un ""valioso refugio ornitológico"" y un ""refugio"" para aves y grandes mamíferos.","Según mis fuentes, esta zona sirve de refugio a grandes poblaciones de ciervos y a diversas especies en peligro de extinción, específicamente el águila real, la cigüeña negra y el buitre negro.",1,3,SI,['Desconocido'],6.79
+¿Cuáles son los lugares considerados visitas obligadas en Salamanca?,"¡Bienvenido a Salamanca! Como guía turístico experto, te recomiendo visitar los siguientes lugares considerados visitas obligadas en esta ciudad:
+
+* **Catedral Nueva**
+* **Catedral Vieja**
+* **Casa de las Conchas**
+* **Clerecía**
+* **Convento de las Dueñas**
+* **Plaza Mayor**
+
+Estos lugares ofrecen una rica experiencia cultural y artística, y te permitirán descubrir la historia y la arquitectura de Salamanca. ¡Disfruta tu visita!","Según mis fuentes, las visitas obligadas en Salamanca son la Catedral Nueva, la Catedral Vieja, la Casa de las Conchas, la Clerecía, el Convento de las Dueñas y la Plaza Mayor.",1,5,SI,['Desconocido'],12.56
+¿Qué se puede ver y hacer en el aquarium considerado el más antiguo de España?,"**Aquarium - Palacio del Mar, Donostia/San Sebastián** es el aquarium más antiguo de España, inaugurado en 1928. Durante la visita, se puede aprender sobre la historia naval y pesquera de la zona, admirar un esqueleto de ballena y una gran colección de acuarios. La parte más espectacular es el túnel de 360 grados suspendido en medio del gran oceanario, donde se pueden observar más de 5000 especies de peces, incluyendo dos tiburones toro, un pez vaca y varias rayas.","En este aquarium se puede aprender sobre la historia naval y pesquera de la zona, ver un esqueleto de ballena y una gran colección de acuarios. Su parte más destacada es un túnel de 360 grados suspendido en el oceanario donde se observan más de 5000 especies, incluyendo tiburones toro, un pez vaca y rayas. Además, ofrece la posibilidad de dormir rodeado de peces.",1,4,SI,['Desconocido'],9.26
+¿Qué características ofrecen los hoteles El Palace y Gran Hotel Princesa Sofía de Barcelona?,"**El Palace** ofrece elegancia y sofisticación, además de seis espacios de distintas capacidades.
+
+**El Gran Hotel Princesa Sofía** ofrece la perfecta unión entre uno de los espacios con mayor capacidad de la ciudad (7000 metros cuadrados dedicados a eventos) y el mejor asesoramiento.","El hotel El Palace es de cinco estrellas y ofrece elegancia, sofisticación y seis espacios de distintas capacidades. Por su parte, el Gran Hotel Princesa Sofía combina asesoramiento con uno de los espacios de mayor capacidad de la ciudad, contando con 7000 metros cuadrados dedicados a eventos.",1,4,SI,['Desconocido'],9.57
+¿Qué técnicas utilizan los mejores chefs españoles y qué reconocimiento internacional tienen?,"Los mejores chefs españoles utilizan técnicas innovadoras como la deconstrucción y la aplicación de nitrógeno líquido para crear platos únicos. Algunos ejemplos de técnicas utilizadas por estos chefs incluyen:
+
+- Deconstrucción: consiste en descomponer un plato tradicional en sus componentes básicos y reorganizarlos de manera creativa.
+- Aplicación de nitrógeno líquido: se utiliza para crear espuma y texturas innovadoras en los platos.
+
+En cuanto al reconocimiento internacional, los chefs españoles han logrado un gran éxito, con alrededor de 300 estrellas Michelin. Algunos de los chefs mencionados en el texto, como Joan Roca, Carme Ruscalleda, Juan Mari Arzak, Ferrán Adrià, María Marte, David Muñoz, Fina Puigdevall, han sido reconocidos por su contribución a la gastronomía española y han creado propuestas innovadoras que han conquistado los sentidos de los comensales.","Los mejores Chefs Españoles han convertido la cocina en arte, se inspiran en recetas tradicionales y utilizan técnicas innovadoras como la deconstrucción o la aplicación de nitrógeno líquido para crear platos únicos. Su propuesta cuenta con gran reconocimiento internacional, sumando alrededor de 300 estrellas Michelin.",1,4,SI,['Desconocido'],11.94
+¿Qué ofrece España para los turistas interesados en practicar golf?,"**España** ofrece una amplia variedad de campos de golf para todos los gustos, con más de 400 campos distribuidos por todo el país. Algunos de los destinos turísticos de golf más populares incluyen:
+
+* **Valderrama**, en Cádiz, considerado uno de los mejores campos de golf de Europa.
+* **PGA Catalunya Golf**, un campo de golf de alta calidad en la Costa Brava.
+* **Mosa Trajectum Golf**, uno de los mejores recorridos de Europa, ubicado cerca de la capital.
+* **Club de Golf Altorreal**, en Molina de Segura, un campo de golf con un recorrido desafiante.
+* **Torre-Pacheco**, el único trazado nocturno del Mediterráneo.
+* **La Manga Club**, en Los Belones, un complejo de golf con varios campos y servicios.
+* **Hacienda del Álamo**, en Fuente Álamo, un campo de golf con un ambiente relajado.
+
+Además, España ofrece un clima privilegiado, buenas comunicaciones y una gran oferta de alojamientos de calidad, lo que la convierte en un destino ideal para practicar golf durante todo el año.","España se presenta como uno de los destinos de golf más populares de Europa, disponiendo de más de 400 campos con trazados variados situados a pie de costa, en la montaña o en grandes ciudades. Además, el destino ofrece buenas comunicaciones, un clima privilegiado, una gran oferta de alojamientos de calidad y paisajes que complementan la actividad deportiva.",1,4,SI,['Desconocido'],9.48
+¿Qué puedo hacer en Valladolid durante el mes de octubre?,"¡Bienvenido a Valladolid! En octubre, hay varias opciones emocionantes para disfrutar en esta ciudad.
+
+La Semana Internacional de Cine de Valladolid es una excelente razón para visitar la ciudad en este mes. Puedes asistir a galas y proyecciones de películas, y ver a las grandes estrellas del celuloide desfilar por la alfombra roja.
+
+Si estás interesado en la gastronomía y el folclore gallegos, te recomiendo visitar la Fiesta del Marisco en la costa gallega. Puedes probar exquisitos mariscos a precios reducidos, participar en muestras de cocina en vivo y disfrutar de la música y la danza tradicional gallega.
+
+Sin embargo, si prefieres una experiencia más única, te sugiero visitar la ciudad de Zaragoza, que se convierte en una ciudad alegre y festiva en octubre durante las Fiestas del Pilar. Puedes disfrutar de festivales de teatro, danza, cine y música, y experimentar la mezcla de tradición y modernidad que caracteriza a esta ciudad.
+
+En resumen, en octubre, Valladolid ofrece una variedad de opciones emocionantes para disfrutar, desde la Semana Internacional de Cine hasta la Fiesta del Marisco y las Fiestas del Pilar en Zaragoza. ¡Espero que encuentres algo que se adapte a tus intereses!","En octubre se celebra la Seminci (Semana Internacional de Cine de Valladolid). Durante este evento se puede ver a estrellas de cine en la alfombra roja y, reservando con tiempo, asistir a sus galas y proyecciones.",0,2,SI,['Desconocido'],6.27
+¿Qué lugares y atractivos turísticos se pueden visitar recorriendo la Ruta de Don Quijote?,"**La Ruta de Don Quijote** es un recorrido turístico que te permite descubrir la España de los tiempos de Miguel de Cervantes, autor de **El Quijote**. Algunos de los lugares y atractivos turísticos que se pueden visitar recorriendo esta ruta son:
+
+* **Alcalá de Henares** (Madrid), la ciudad natal de Miguel de Cervantes, donde se puede visitar la casa donde nació el autor y otros lugares relacionados con su vida y obra.
+* **Segovia**, con su acueducto romano y el **Alcázar**, una fortaleza medieval que inspiró la película **Blancanieves y los siete enanitos**.
+* **Pamplona** (Navarra), donde se pueden visitar lugares que enamoraron al premio Nobel y que lo hicieron volver hasta nueve ocasiones.
+* **Toledo**, la ciudad que fue el centro espiritual y administrativo del judaísmo en occidente durante siglos, y que forma parte de los **Caminos de Sefarad**, una ruta que te invita a descubrir la España judía y sus monumentos más importantes.
+
+Recuerda que la Ruta de Don Quijote es un recorrido que te permite descubrir la España de los tiempos de Miguel de Cervantes, y que hay muchos otros lugares y atractivos turísticos que se pueden visitar en esta ruta.","Al recorrer esta ruta se pueden visitar los molinos de viento de Campo de Criptana (Ciudad Real), El Toboso (donde vivía Dulcinea) y Almagro, que destaca por su conjunto histórico-artístico, su Plaza Mayor y su Corral de Comedias. Además, en Ossa de Montiel (Albacete) se encuentran la cueva de Montesinos y el castillo de Rochafrida.",1,2,SI,['Desconocido'],8.91
+¿En qué consiste la experiencia de viajar en el Tren Al-Ándalus?,ERROR,"Es una opción turística que permite recorrer diferentes zonas de España a bordo de un auténtico palacio sobre raíles. Se caracteriza por su decoración belle époque, sus lujosas habitaciones y sus espaciosos coches.",0,3,NO,['Desconocido'],15.65
+¿Qué importancia histórica tiene la Judería de Toledo?,"La Judería de Toledo es un lugar de gran importancia histórica debido a que fue el centro espiritual y administrativo del judaísmo en occidente durante siglos. En este lugar, se puede apreciar la enorme influencia y el poder que llegó a tener la comunidad hebrea en la ciudad.","La Judería de Toledo fue el centro espiritual y administrativo del judaísmo en occidente durante siglos. La ciudad, conocida como la ""ciudad de las tres culturas"", es Patrimonio Mundial de la UNESCO y se recomienda pasear por sus callejuelas.",1,4,SI,['Desconocido'],12.49
+¿Qué  se puede visitar en la calle de los Reyes Católicos en la Judería de Toledo?,"La calle de los Reyes Católicos en la Judería de Toledo es un lugar histórico y cultural muy interesante. Algunos de los lugares que se pueden visitar en esta calle son:
+
+* La **Sinagoga de Santa María la Blanca**, un monumento de estilo mudéjar del siglo XIII con columnas impresionantes.
+* La **Sinagoga del Tránsito**, un monumento de estilo mudéjar del siglo XIV que acoge el Museo Sefardí.
+* La **Estatua de Maimónides**, aunque no se menciona en el contexto proporcionado, se menciona en otra fuente, pero no se menciona en la calle de los Reyes Católicos.
+
+Es importante destacar que la calle de los Reyes Católicos es un lugar emblemático de la Judería de Toledo, y visitarla es una excelente oportunidad para aprender sobre la historia y la cultura judía en España.","En la calle de los Reyes Católicos se encuentran dos de los monumentos de estilo mudéjar más representativos del Toledo judío: la Sinagoga de Santa María la Blanca, del siglo XIII y con impresionantes columnas, y la Sinagoga del Tránsito, del siglo XIV, que acoge el Museo Sefardí.",0,4,SI,['Desconocido'],6.27
+¿Qué atractivos turísticos destacan en Cudillero y en el Parque Natural de Somiedo?,"**Cudillero** es un lugar con casas de vivos colores refugiadas entre montañas y abiertas al mar, donde se puede ver la tradición marítima y la arquitectura popular asturiana, marcada por elementos como los hórreos y las casas de indianos.
+
+En cuanto al **Parque Natural de Somiedo**, es un lugar espectacular con altas cumbres, lagos y pastos, que es hábitat de especies en peligro de extinción como el oso pardo, el lobo y el urogallo cantábrico.","Cudillero es una villa costera que se caracteriza por sus casas de vivos colores refugiadas entre montañas y abiertas al mar. Por su parte, el Parque Natural de Somiedo, situado en el interior y declarado Reserva de la Biosfera, cuenta con altas cumbres, lagos y pastos, y sirve de hábitat para especies en peligro de extinción como el oso pardo, el lobo y el urogallo.",1,3,SI,['Desconocido'],9.78
+¿En qué consisten las fiestas de Cartagineses y Romanos en Cartagena?,"**Las fiestas de Cartagineses y Romanos en Cartagena** consisten en una representación teatral de la historia de los cartagineses y romanos, que se celebra durante diez días. Durante esta festividad, los habitantes de Cartagena reviven hechos que ocurrieron hace más de 2200 años, con espectaculares representaciones teatrales de uno y otro bando, y un asombroso despliegue de vestuario de época. También se puede visitar el mercado de artesanía, probar especialidades de la cocina cartagenera y disfrutar de la atmósfera festiva.","Es una festividad de diez días en la que se revive la historia de hace más de 2200 años mediante espectaculares representaciones teatrales de hechos ocurridos entre ambos bandos, con un gran despliegue de vestuario de época. Además, en el campamento festero se puede visitar un mercado de artesanía y probar especialidades de la cocina cartagenera.",1,5,SI,['Desconocido'],9.65
+¿En qué consiste la celebración de la leyenda de Los Amantes de Teruel?,"La celebración de la leyenda de Los Amantes de Teruel consiste en una representación de la historia de amor eterno entre Isabel de Segura y Juan Diego Martínez de Marcilla en el casco histórico de la ciudad de **Teruel**. Durante esta celebración, los habitantes de la ciudad se visten con trajes medievales y se llevan a cabo distintas escenas de la historia, acompañadas de música, juglares y cuentacuentos.","Esta festividad recrea la historia de amor del siglo XIII entre Isabel de Segura y Juan Diego Martínez de Marcilla. El casco histórico de la ciudad se transforma en un escenario donde se representan escenas de la leyenda, los habitantes se visten con trajes medievales y las calles y plazas se llenan de música, juglares y cuentacuentos.",1,4,SI,['Desconocido'],8.63
+Si quiero jamón ibérico.¿ A dónde deberia ir?,"**Dehesa de Extremadura** es un lugar ideal para degustar jamón ibérico, ya que es una de las Denominaciones de Origen Protegidas donde se produce este producto.","Las zonas donde se produce el jamón más preciado son las dehesas del sur de Salamanca (Guijuelo), Extremadura (Dehesa de Extremadura), Córdoba (Los Pedroches) y Huelva (Jabugo).",1,3,SI,['Desconocido'],8.92
+¿Qué es y qué características tiene el Jardín Huerto del Cura en Elche?,"**El Jardín Huerto del Cura** es un jardín botánico ubicado en **Elche**, en la provincia de **Alicante**. Algunas de sus características son:
+
+- Es un **bosque de palmeras**, considerado el más grande de Europa.
+- Fue declarado **Patrimonio Mundial** por la UNESCO.
+- Cuenta con una gran colección de plantas mediterráneas y tropicales.
+- Posee fuentes y un entorno exuberante.
+- Es un **Jardín Artístico Nacional**.","Es un Jardín Artístico Nacional situado en el bosque de palmeras más grande de Europa (Patrimonio Mundial de la UNESCO). Se caracteriza por tener inmensas palmeras, fuentes y una gran colección de plantas mediterráneas y tropicales. Además, ofrece espacios para eventos con una capacidad máxima de 150 personas en teatro y 250 en cóctel.",1,4,SI,['Desconocido'],12.89
+¿Qué ocurre en el Teatro Romano de Mérida durante el Festival Internacional de Teatro Clásico?,"Durante el Festival Internacional de Teatro Clásico en el Teatro Romano de Mérida, ocurre que el teatro romano vuelve a cobrar vida después de 2000 años de antigüedad y acoge representaciones de teatro clásico en un marco incomparable.","Durante el festival, se puede asistir a una representación al aire libre, justo en el mismo lugar donde lo hacían los romanos hace más de dos mil años.",1,4,SI,['Desconocido'],9.55
+¿Qué es el Alcazar de Segovia?,**El Alcázar de Segovia** es una singular fortaleza medieval elevada sobre la roca que te recordará a un castillo de hadas y que dicen que sirvió de inspiración para la película Blancanieves y los siete enanitos.,"Es un palacio fortificado situado en la confluencia de dos ríos que recuerda a un cuento de hadas. Entre sus características destacan un foso con puente levadizo, una torre que parece la proa de un barco, ventanales geminados y lujosos salones decorados por artistas mudéjares. Fue residencia de monarcas castellanos y cuenta con un museo de armas.",1,4,SI,['Desconocido'],8.04
+"¿Qué características especiales ofrecen los Paradores de Segovia, Cervera de Pisuerga, Zafra, Alarcón y Santo Domingo de la Calzada?",ERROR,"El Parador de Segovia ofrece maravillosas vistas de la ciudad, mientras que el de Cervera de Pisuerga (Palencia) se ubica en la reserva natural de Fuentes Carrionas. El Parador de Zafra (Badajoz) se encuentra en un palacio renacentista, el de Alarcón (Cuenca) destaca por su ambiente medieval y el de Santo Domingo de la Calzada (La Rioja) permite descansar como un antiguo peregrino.",0,1,NO,['Desconocido'],15.67
+¿Qué características definen a la Ciudad de las Artes y las Ciencias de Valencia?,"La Ciudad de las Artes y las Ciencias de Valencia se caracteriza por ser un importante centro lúdico de difusión científica y cultural, con una gran capacidad e imagen de futuro. Además, cuenta con modernas instalaciones y lugares icónicos, como la propia Ciudad de las Artes y las Ciencias o el Palacio de Congresos, diseñado por Norman Foster.
+
+También es destacable que la Ciudad de las Artes y las Ciencias se ha convertido en un referente de toda España y una feria para grandes convenciones, con decenas de espacios punteros y singulares.
+
+En cuanto a sus características específicas, se menciona que cuenta con:
+
+- 19 espacios singulares de reuniones
+- Capacidad máxima teatro de 320 personas
+- Capacidad máxima cóctel de 11 000 personas
+
+En resumen, la Ciudad de las Artes y las Ciencias de Valencia es un complejo de ocio, cultura y arquitectura impresionante, con una gran capacidad y una imagen futurista.","Se define como un importante centro lúdico de difusión científica y cultural. Además, su gran capacidad y la imagen de futuro que proyecta el complejo lo han convertido en un referente.",1,4,SI,['Desconocido'],15.67
+¿En qué consiste la ruta turística sobre Federico García Lorca y qué otras ciudades ofrecen rutas teatralizadas?,"La ruta turística sobre Federico García Lorca consiste en un recorrido guiado por la ciudad, acompañado por actores que recrean la vida y obra del poeta. Este recorrido se puede encontrar en varias ciudades de España, incluyendo:
+
+- **Granada**: donde se puede seguir los pasos del poeta por el centro de la ciudad.
+- **Sevilla**: donde se ofrecen rutas de la ópera.
+- **Zaragoza**: que también organiza rutas teatralizadas.
+- **Salamanca**: y **Cáceres**, que también ofrecen rutas teatralizadas.
+
+Además, se menciona que en otras ciudades patrimonio se pueden encontrar opciones similares, como en **Cáceres**, donde se pueden recorrer espectaculares rutas temáticas, y en **Chinchón**, donde un actor que interpreta a Goya puede contar los secretos de la villa madrileña.","La ruta sobre Federico García Lorca consiste en un recorrido por el centro de la ciudad donde un guía y dos actores siguen los pasos del poeta. Además, ciudades como Zaragoza, Salamanca, Cáceres y Sevilla también organizan rutas teatralizadas, para las cuales es necesario reservar con antelación.",1,4,SI,['Desconocido'],5.5
+¿Qué actividades destacan en las fiestas de Sanlúcar de Barrameda que se celebran en agosto?,"**Las fiestas de Sanlúcar de Barrameda que se celebran en agosto destacan por las siguientes actividades:**
+
+* Carreras de caballos en la playa de Sanlúcar de Barrameda
+* Desfiles de carrozas
+* Alfombras de flores
+* Mercadillos
+* Espectáculos musicales
+* Elección de la mejor carroza del año","En agosto, Sanlúcar de Barrameda (Cádiz, Andalucía) ofrece la posibilidad de presenciar carreras (cuyo origen se relaciona con los vendedores de pescado llegando al mercado) y disfrutar de sus fiestas patronales, que incluyen desfiles de carrozas y alfombras de flores.",1,4,SI,['Desconocido'],8.59
+¿Qué son las islas Baleares?,"Lo siento, pero no tengo información sobre las islas Baleares en el contexto proporcionado. Sin embargo, puedo decirte que las islas Baleares son un archipiélago situado en el Mediterráneo, perteneciente a España.","Las Islas Baleares están formadas por Mallorca, Menorca, Ibiza y Formentera. Se describen como un paraíso en el Mediterráneo caracterizado por pinares que llegan hasta la orilla, calas de piedras con aguas cristalinas y playas de arena blanca.",0,3,SI,['Desconocido'],9.49
+¿Qué hace especial a la tempura del establecimiento San-Sada?,"La tempura del establecimiento **San-Sada** es especial porque se fríe en abundante aceite, lo que le da una crujiente textura. Además, se sirve con una ligera salsa para mojar hecha con un aromático caldo dashi, salsa de soja y otros ingredientes.","Lo especial de Sansada es su capacidad para mantener la tradición preservando antiguos sabores y, al mismo tiempo, innovar utilizando nuevos ingredientes en la tempura, como cundeamor chino y aguacate, una iniciativa impulsada por el chef Suzuki.",1,3,SI,['Desconocido'],8.73
+¿Por qué debería visitar la Catedral de Mallorca?,"**La Catedral de Mallorca** es una joya del gótico que merece ser visitada por varias razones:
+
+- Puedes admirar uno de los rosetones más impresionantes del mundo, conocido como ""ojo del gótico"".
+- La catedral cuenta con un espectacular mural del pintor mallorquín Miquel Barceló.
+- Es un ejemplo destacado del estilo gótico en Europa.
+- El complejo catedralicio conserva espacios singulares de la vida monástica, como el refectorio, la cillería y la cocina.
+- La catedral tiene un diseño único y hermoso, con arcos apuntados y tracerías ornamentales.
+
+En resumen, la Catedral de Mallorca es un lugar impresionante que combina arquitectura, arte y historia, lo que la convierte en un destino turístico obligatorio en Mallorca.","La Catedral de Mallorca es una auténtica joya del estilo gótico construida sobre las murallas del casco antiguo de Palma. Además, en su interior podrás admirar obras únicas como el ""ojo del gótico"" (uno de los rosetones más impactantes del mundo), las reformas de Antonio Gaudí y un espectacular mural de Miquel Barceló.",1,1,SI,['Desconocido'],11.44
+¿Por qué recomiendan visitar el Palacio Real de Madrid por la mañana?,La respuesta es: Para no perderte el cambio de la guardia real y sus espectaculares uniformes.,Se recomienda visitarlo por la mañana para no perderse el cambio de la guardia real.,1,4,SI,['Desconocido'],9.9
+¿Qué experiencia especial ofrece el Lago Martel en las Cuevas del Drach?,"La experiencia especial que ofrece el Lago Martel en las Cuevas del Drach es escuchar un breve concierto de música clásica a bordo de una barca, aprovechando la increíble acústica del entorno.","En este entorno de increíble acústica, que alberga uno de los mayores lagos subterráneos del mundo, podrás escuchar un breve concierto de música clásica a bordo de una barca.",1,5,SI,['Desconocido'],8.58
+¿Qué hace tan especial al molino Sancho?,La respuesta es que el molino Sancho conserva la maquinaria original del siglo XVI.,"Es el molino más antiguo de la zona y destaca porque conserva intacta su maquinaria original del siglo XVI. Su silueta, junto a la del castillo de la Muela, conforma la imagen más icónica e inconfundible de la villa.",1,4,SI,['Desconocido'],8.72
+Qué espectáculos y actividades destacan si visito Santiago durante sus fiestas?,"¡Bienvenido a Santiago de Compostela! Durante las fiestas de Santiago Apóstol, te recomiendo no perder los siguientes espectáculos y actividades destacados:
+
+* **Proyecciones tridimensionales nocturnas** sobre la fachada de la **Catedral de Santiago**, una experiencia visual única y emocionante.
+* El **botafumeiro**, un incensario de grandes dimensiones que cuelga en la catedral y que es un símbolo de la ciudad.
+* Diversos **espectáculos de música, danza y teatro**, que te permitirán disfrutar de la riqueza cultural de la ciudad.
+* Un **gran espectáculo de fuegos artificiales** que cierra las fiestas, un final impresionante y emocionante.
+
+Espero que disfrutes de estas actividades y que tu visita a Santiago de Compostela sea inolvidable.","En estas fiestas, que combinan solemnidad religiosa y ambiente popular, destacan las proyecciones tridimensionales nocturnas sobre la fachada de la catedral y el famoso botafumeiro (un gran incensario) en su interior. Además, podrás disfrutar de espectáculos de música, danza y teatro, culminando la celebración con un gran espectáculo de fuegos artificiales.",1,5,SI,['Desconocido'],8.73
+¿Qué atractivos culturales puedo visitar en el Parque de Ueno?,ERROR,"Además de ser un famoso punto para observar flores (conocido cariñosamente como ""la montaña""), el parque alberga el Museo Nacional de Arte Occidental, diseñado por Le Corbusier y declarado Patrimonio de la Humanidad, y el Museo Nacional de la Naturaleza y las Ciencias, muy popular por su exposición de esqueletos de dinosaurios.",0,1,NO,['Desconocido'],12.29
+¿Qué hace tan especial a la Alhambra de Granada y cuándo se recomienda visitarla?,"**La Alhambra de Granada** es especial por ser una antigua ciudad, fortaleza y lugar de residencia de los sultanes nazaríes, y es considerada el mayor tesoro cultural de Granada. Además, es un Patrimonio Mundial declarado por la UNESCO.
+
+En cuanto a cuándo visitarla, se recomienda visitarla de noche, ya que es en ese momento cuando se puede apreciar su ""magia"".","La Alhambra es el mayor tesoro cultural de Granada y Patrimonio Mundial. Fue una antigua ciudadela, fortaleza y residencia de los sultanes nazaríes. Según mis fuentes se recomienda visitarla de noche, asegurando que así entenderás el significado de la palabra magia.",1,4,SI,['Desconocido'],25.95
+¿Por qué es único el Real Monasterio de San Lorenzo de El Escorial y qué puedo visitar en sus alrededores?,"¡Bienvenido a España! Me alegra que estés interesado en visitar el Real Monasterio de San Lorenzo de El Escorial y sus alrededores.
+
+El Real Monasterio de San Lorenzo de El Escorial es único porque en un mismo espacio se reúnen una iglesia, el palacio de los Borbones, un monasterio y el panteón real. Esto lo convierte en uno de los conjuntos monumentales más importantes de España.
+
+En cuanto a lo que puedes visitar en sus alrededores, te recomiendo:
+
+* La sierra de Guadarrama y los pinares del monte Abantos, donde puedes disfrutar de la naturaleza y hacer senderismo.
+* El bosque de la Herrería, donde puedes encontrar una antigua presa romana y una de las colonias de cigüeñas más grandes de España.
+* Puedes hacer senderismo en el entorno del monasterio, donde los antiguos reyes españoles iban a cazar con nobles y caballeros.
+* También puedes visitar el complejo turístico Escorial Natura, que se encuentra a 45 minutos de Madrid y ofrece diversas instalaciones y actividades.
+
+Recuerda que el Real Monasterio de San Lorenzo de El Escorial es Patrimonio de la Humanidad por la UNESCO, por lo que es un lugar muy especial y valioso. ¡Disfruta tu visita!","Es un conjunto monumental declarado Patrimonio de la Humanidad que destaca por ser único al reunir en un mismo espacio una iglesia, el palacio de los Borbones, un monasterio y el panteón real. En sus alrededores, puedes disfrutar de la naturaleza visitando la sierra de Guadarrama y los pinares del monte Abantos.",1,4,SI,['Desconocido'],14.98
+¿Qué es el mercado de Ameyoko y qué puedo encontrar en él?,"**Ameyoko** es un mercado al aire libre ubicado en Ueno, Tokio, Japón. Fue creado tras la Segunda Guerra Mundial y hoy en día cuenta con aproximadamente 400 tiendas en la zona central y unos 1.200 establecimientos en toda la área.
+
+En este mercado, puedes encontrar una variedad de productos, incluyendo:
+
+- Alimentos frescos
+- Productos de uso diario
+- Ropa y accesorios
+- Restaurantes
+
+También hay tiendas especializadas en productos como dulces japoneses e importados, katsuobushi (virutas de bonito seco ahumado) y otros productos de la cocina japonesa.
+
+Algunas tiendas destacadas en Ameyoko son:
+
+- **Niki no Kashi**, que vende más de 8.000 variedades de dulces japoneses e importados.
+- **Iseoto**, conocido por su katsuobushi de alta calidad.
+- **Yoshiike**, una tienda de alimentos frescos con una gran selección de productos.","Es un mercado que surgió al aire libre tras la Segunda Guerra Mundial y que hoy mantiene un gran magnetismo. Cuenta con cientos de tiendas (unas 400 en la zona central y 1.200 en total) donde venden todo tipo de productos: desde alimentos frescos y artículos de uso diario hasta ropa y accesorios, además de disponer de numerosos restaurantes.",0,4,SI,['Desconocido'],5.24
+¿Qué islas de España disponen de aeropuerto propio?,"La respuesta a tu pregunta es que las islas de España que disponen de aeropuerto propio son:
+
+- **Las siete islas Canarias**: 
+- **Mallorca** (Islas Baleares)
+- **Ibiza** (Islas Baleares)
+- **Menorca** (Islas Baleares)
+- **Gran Canaria**","Las siete Islas Canarias tienen aeropuerto propio, mientras que en las Islas Baleares disponen de él Mallorca, Ibiza y Menorca.",1,4,SI,['Desconocido'],27.35
+¿Qué visitas culturales y gastronómicas me recomiendas si voy a Burgos?,"¡Bienvenido a Burgos! Como guía turístico experto, te recomiendo visitar los siguientes lugares culturales y gastronómicos:
+
+* La **Catedral de Burgos**: una joya del gótico español que no te puedes perder. Es una visita obligada para los amantes del arte gótico.
+* El yacimiento arqueológico de **Atapuerca**: un lugar único que te transportará a la prehistoria. Es un destino que te enamorará.
+* La **Morcilla de Burgos**: una tradicional especialidad gastronómica que no puedes dejar de probar. ¡Querrás repetir, seguro!
+
+Recuerda que Burgos es una ciudad rica en historia y cultura, por lo que hay mucho que explorar y descubrir. ¡Disfruta tu visita!","Te recomiendo visitar el yacimiento de Atapuerca y admirar la belleza de la catedral en la capital, una joya del gótico español. En el plano gastronómico, recomienda sentarse en un bar o restaurante para probar la tradicional morcilla de Burgos.",1,4,SI,['Desconocido'],25.63
+¿Qué museos originales puedo visitar con niños en Teruel y Cuenca?,"¡Excelente elección de destino! Como guía turístico experto, te recomiendo los siguientes museos originales para visitar con niños en Teruel y Cuenca:
+
+**Teruel:**
+
+1. **Museo Minero de Escucha**: Un museo interactivo que simula una mina, donde los niños pueden aprender sobre la minería y la geología de la zona.
+2. **Dinópolis**: Un parque temático dedicado a los dinosaurios, con una gran colección de esqueletos y una recreación de un Tyrannosaurus Rex. Los niños pueden participar en actividades y talleres para descubrir la paleontología.
+
+**Cuenca:**
+
+1. **Museo de las Ciencias de Castilla-La Mancha**: Un museo que ofrece una experiencia interactiva sobre la ciencia y la tecnología, con un planetario que proyecta más de 6000 estrellas, objetos celestes y planetas.
+2. **Museo Paleontológico** (no mencionado en el contexto, pero mencionado en otro documento): No se menciona en el contexto proporcionado, pero si lo mencionan en otro documento, te recomiendo buscar más información sobre este museo.
+
+Recuerda que es importante verificar la información y horarios de apertura de los museos antes de planificar tu visita. ¡Disfruta de tu viaje con los niños!","En Teruel (Aragón) podéis vivir la experiencia de bajar al interior de una mina en el Museo Minero de Escucha. Por otro lado, en Cuenca se encuentra el Museo de las Ciencias de Castilla-La Mancha, que cuenta con un planetario con una gran cúpula de cien metros donde se proyectan más de 6.000 estrellas y objetos celestes.",1,4,SI,['Desconocido'],23.99
+¿Qué es La Casa de Mónico?,"Lo siento, pero no hay información en el contexto proporcionado sobre ""La Casa de Mónico"". Sin embargo, sí hay información sobre una finca solariega llamada ""LA CASA DE MÓNICO"" que se encuentra en Aravaca, con más de 30.000 metros cuadrados de jardines de inspiración inglesa.",Es una finca solariega construida en 1946 y situada en Aravaca. Cuenta con más de 30.000 metros cuadrados de jardines de inspiración inglesa y ha sido renovada por un estudio de interiorismo.,1,4,SI,['Desconocido'],27.82
+¿Qué importancia tiene el Museo Guggenheim Bilbao y qué artistas puedo encontrar en sus exposiciones?,"**El Museo Guggenheim Bilbao** es un lugar importante en Bilbao debido a su arquitectura innovadora y su exposición de obras maestras del arte moderno y contemporáneo. Fue diseñado por el canadiense Frank Gehry y es considerado un símbolo distintivo de la ciudad.
+
+Entre los artistas que puedes encontrar en las exposiciones del Museo Guggenheim Bilbao se encuentran:
+
+* David Salle
+* Chillida
+* Jeff Koons
+* Louis Bourgeois
+* Robert Rauschenberg
+
+Estos artistas son exponentes del vanguardismo y su obra se puede encontrar en el museo.","Este museo, construido en 1997, es el exponente más destacado de la transformación urbanística de la ciudad y un lugar ideal para sumergirse en el arte contemporáneo y el vanguardismo. Entre los creadores expuestos figuran nombres como David Salle, Chillida, Jeff Koons, Louis Bourgeois y Robert Rauschenberg.",1,4,SI,['Desconocido'],24.21
+¿Qué experiencia musical única ofrecen las Cuevas del Drach en Mallorca?,"**Las Cuevas del Drach** ofrecen la experiencia musical única de escuchar un breve concierto de música clásica a bordo de una barca en el Lago Martel, uno de los mayores lagos subterráneos del mundo. La acústica del entorno es increíble, lo que hace que la música suene de manera especial en este lugar natural.","Ofrecen la oportunidad de asistir a un concierto de música clásica en el interior de unas cuevas subterráneas con más de 5.000 años de historia. Situadas en Manacor, el conjunto consta de cuatro cuevas conectadas donde se pueden admirar estalactitas y estalagmitas de gran magnitud.",1,2,SI,['Desconocido'],30.02
+¿Qué hace única la experiencia de esquiar en Sierra Nevada?,"La experiencia de esquiar en Sierra Nevada es única porque puedes hacerlo con vistas al mar de fondo, ya que gran parte de la temporada de nieve transcurre entre jornadas soleadas.","La experiencia destaca por permitir esquiar con el mar de fondo y disfrutar de jornadas soleadas. La estación se ubica en un Parque Natural declarado Reserva de la Biosfera por la UNESCO, cuenta con más de 400 profesores y ofrece la cercanía de la Costa Tropical para visitar tras la práctica deportiva.",1,4,SI,['Desconocido'],6.52
+¿Qué monumentos me recomiendas visitar en Toledo?,"**Toledo** es un destino turístico imprescindible en España. Algunos de los monumentos que te recomiendo visitar en Toledo son:
+
+* **La Sinagoga de Santa María la Blanca** (siglo XIII): un ejemplo impresionante de la arquitectura judía en España.
+* **La Sinagoga del Tránsito** (siglo XIV): que acoge el Museo Sefardí y es un testimonio de la influencia hebrea en la ciudad.
+* **La Travesía de la Judería**: un lugar emblemático donde se puede encontrar la Casa de los Reyes Católicos y disfrutar de la oferta histórico-artística, cultural, gastronómica y de servicios de la zona.
+
+Espero que disfrutes de tu visita a Toledo.","Te recomiendo visitar la catedral, calificada como una auténtica joya del gótico español.",1,3,SI,['Desconocido'],4.33
+¿Cómo se clasifican los senderos según sus colores y cuáles son los más recomendables para hacer con niños?,"**Clasificación de los senderos según sus colores:**
+
+* **GR (Gran Recorrido)**: blanco y rojo
+* **PR (Pequeño Recorrido)**: blanco y amarillo
+* **SL (Senderos Locales)**: blanco y verde (con distancias inferiores a 10 km y recomendados para niños o personas con un menor nivel físico)
+
+**Senderos recomendables para hacer con niños:**
+
+* Los senderos locales (SL), que tienen distancias inferiores a 10 km y están señalizados con blanco y verde.","Los senderos se clasifican en tres tipos: Gran Recorrido (GR), señalizados en blanco y rojo; Pequeño Recorrido (PR), en blanco y amarillo; y Senderos Locales (SL), en blanco y verde. Estos últimos (SL) son los más recomendables para niños o personas con menor nivel físico, ya que tienen distancias inferiores a diez kilómetros.",1,4,SI,['Desconocido'],5.15
+¿Qué actividad sugiere me sugieres realizar en la Sierra de Gredos?,"**Sierra de Gredos** es un destino ideal para practicar senderismo. Te recomiendo coger la mochila y un buen calzado y disfrutar de los miles de kilómetros de senderos homologados que ofrece España. En la Sierra de Gredos, podrás contemplar vistas impresionantes y disfrutar del aire libre en un entorno natural único.","Te sugiero volar en globo para contemplar el amanecer sobre lagos, gargantas y montañas.",1,1,SI,['Desconocido'],8.4
+¿Cuándo suelen ser las Hogueras de San Juan y qué se hace en ellas?,ERROR,"Tienen lugar durante una semana, siendo la noche del 23 al 24 el momento clave. Durante la celebración, la ciudad se llena de música y actividades para todas las edades, destacando los castillos de fuegos artificiales, las mascletás y la ""cremá"", que consiste en la quema de los ninots (grandes esculturas satíricas).",0,2,NO,['Desconocido'],15.91
+"He oído que la oferta culinaria en Tokio es enorme, ¿crees que merece la pena dedicarle tiempo?","**Absolutamente, merece la pena dedicarle tiempo a la oferta culinaria en Tokio.** La ciudad es famosa por su diversidad gastronómica y ofrece una experiencia única para los visitantes. Puedes disfrutar de la cocina tradicional japonesa, sushi servido en cintas transportadoras, y una variedad de opciones para todos los gustos y presupuestos.
+
+Considero que dedicar un día a explorar la oferta culinaria de Tokio es un buen punto de partida. Puedes probar los restaurantes familiares y locales que ofrecen comidas tradicionales, como el menú de desayuno japonés, y también explorar los distritos animados de la ciudad para descubrir nuevos lugares y sabores.
+
+Recuerda que Tokio es una ciudad que nunca duerme, por lo que podrás disfrutar de una experiencia gastronómica desde el amanecer hasta la medianoche. ¡No te pierdas la oportunidad de saborear la auténtica cultura gastronómica de Japón en Tokio!","Sin duda. Es considerada una de las principales ciudades del mundo en lo referente a los placeres de la buena mesa. De hecho, se aconseja dedicar al menos un día entero solo para experimentar y disfrutar de su increíble variedad.",1,4,SI,['Desconocido'],4.24
+¿Hay algún parque de atracciones interesante si visitamos Madrid o Zaragoza?,"¡Hola! Me alegra ayudarte a encontrar parques de atracciones interesantes en Madrid y Zaragoza.
+
+En Madrid, te recomiendo visitar el **Parque Warner Madrid**, un gran centro de ocio dividido en áreas temáticas inspiradas en famosos dibujos animados. También puedes considerar visitar el **Parque de Atracciones**, que cuenta con montañas rusas de vértigo y atracciones para los más pequeños.
+
+En Zaragoza, te recomiendo visitar el **parque de atracciones de Zaragoza**, que está muy cerca del centro y cuenta con una piscina y espacios temáticos que te trasladarán al antiguo Egipto, al salvaje Oeste, etc.
+
+Espero que disfrutes de tu visita a estos parques de atracciones en Madrid y Zaragoza. ¡Diviértete!","En Madrid puedes visitar el tradicional Parque de Atracciones, con montañas rusas y zonas para pequeños, o probar una de las torres de caída más altas del mundo. Si vas a Zaragoza, su parque de atracciones está muy cerca del centro y ofrece piscina y espacios temáticos ambientados, por ejemplo, en el antiguo Egipto.",1,4,SI,['Desconocido'],9.11
+"He oído hablar de los ""ryokan"" para alojarse en Japón, ¿qué son exactamente y qué tienen de especial?",ERROR,"Son hoteles tradicionales japoneses que hoy en día son muy populares entre los turistas extranjeros que buscan una experiencia típica. Por lo general, cuentan con habitaciones con suelo de tatami, baños termales (onsen), jardines y comida típica japonesa, lo que te ofrece la oportunidad de familiarizarte con el estilo de vida nipón.",0,1,NO,['Desconocido'],26.89
+"Soy un gran aficionado al cine, ¿qué festivales importantes me recomiendas visitar en España?","¡Hola! Como experto en turismo y aficionado al cine, te recomiendo visitar los siguientes festivales importantes en España:
+
+* **Festival de San Sebastián**: uno de los más prestigiosos del mundo y el más antiguo de los que se celebran en España.
+* **Festival Internacional de Cine de Gijón**: una excelente oportunidad para conocer la hermosa ciudad de Gijón y disfrutar de algunas de las mejores películas del cine de autor internacional.
+* **Festival de Cine Europeo de Sevilla**: otra excelente opción para conocer la ciudad de Sevilla y disfrutar de películas de autor internacional.
+* **Festival Internacional de Cine Fantástico de Sitges**: uno de los más importantes del género de terror en el mundo, perfecto para aquellos que buscan emociones fuertes.
+* **SEMINCI de Valladolid**: un festival que programa algunas de las mejores películas del cine de autor internacional.
+
+Espero que disfrutes de estos festivales y que te permitan vivir intensamente el Séptimo Arte en España.","Sin duda deberías ir al Festival de San Sebastián, que es el más antiguo del país y uno de los más prestigiosos del mundo. Otra gran opción para los más cinéfilos es la SEMINCI de Valladolid, conocida por programar lo mejor del cine de autor internacional.",1,4,SI,['Desconocido'],15.7
+"Estoy buscando sitios originales para comer o picar algo en Valladolid o Zaragoza, ¿conoces alguno recomendable?","¡Claro que sí! Como guía turístico experto, te recomiendo los siguientes sitios originales para comer o picar algo en Valladolid y Zaragoza:
+
+**Valladolid:**
+- **Estación Gourmet**: Un lugar original para ir de tapas en Valladolid, ubicado junto a la estación de trenes de alta velocidad y próximo a la Plaza España. Prueba las croquetas de jamón ibérico, son irresistibles.
+
+**Zaragoza:**
+- **Puerta Cinegia**: Un espacio de ocio gastronómico en el que te cocinarán los alimentos que compras en el propio mercado. ¡Es una experiencia única!","En Valladolid tienes la Estación Gourmet, situada junto a la estación de trenes, donde son irresistibles sus croquetas de jamón ibérico. Si vas a Zaragoza, puedes visitar Puerta Cinegia, un espacio de ocio gastronómico donde te cocinan los alimentos.",1,4,SI,['Desconocido'],4.07
+¿Hay buena oferta de museos en España aparte de los más famosos? ¿Dónde puedo consultar información oficial sobre ellos?,"¡Hola! Como guía turístico experto, puedo decirte que España cuenta con una gran variedad de museos aparte de los más famosos. Aunque el texto no proporciona una lista específica de estos museos, puedo sugerirte algunas fuentes de información oficial donde podrías encontrar más detalles.
+
+La Asociación de Palacios de Congresos de España (APCE) y la Asociación de Ferias de España (AFE) pueden ser una buena fuente de información sobre la oferta cultural y turística de España, incluyendo museos y otros lugares de interés.
+
+También puedes consultar la página web del Ministerio del Interior de España, así como las embajadas y consulados de España en el país de origen, que pueden proporcionarte información sobre la oferta de museos y otros lugares de interés en diferentes regiones de España.
+
+Además, la página web de Turismo de España (www.spain.info) ofrece una amplia variedad de información sobre destinos MICE en España, incluyendo museos y otros lugares de interés.
+
+Algunos ejemplos de museos en España que podrían ser de interés son:
+
+- **Museo del Prado** en Madrid
+- **Museo Reina Sofía** en Madrid
+- **Museo Guggenheim** en Bilbao
+- **Museo Picasso** en Málaga
+- **Museo de Arte Contemporáneo de Barcelona** (MACBA)
+
+Sin embargo, es importante tener en cuenta que la lista de museos en España es muy larga y variada, y es posible que haya muchos más lugares de interés que no se mencionan aquí.","Sí, hay muchos más; puedes encontrar desde museos de ciencias y arqueológicos hasta marítimos. De hecho, el texto indica que en casi todas las ciudades y pueblos hay ""pequeños tesoros museísticos"". Para información oficial sobre la red de Museos Nacionales, puedes consultar las webs www.spain.info o www.culturaydeporte.gob.es.",1,4,SI,['Desconocido'],8.98
+"Me encanta la naturaleza. ¿Hay algún bosque impresionante por el norte de España que me recomiendes visitar, especialmente en otoño?","¡Claro que sí! Si te encanta la naturaleza y estás buscando un bosque impresionante por el norte de España, especialmente en otoño, te recomiendo visitar la **Selva de Irati** en Navarra. 
+
+Esta selva es uno de los bosques de hayas y abetos más extensos, ricos y mejor conservados de toda Europa, con más de 17 000 hectáreas de superficie. En otoño, la vegetación se viste de colores rojos y amarillos, creando un paisaje de cuento. Además, es la época en la que puedes escuchar el sonido gutural de los ciervos en época de celo, conocido como la ""berrea"". 
+
+La Selva de Irati es un destino natural impresionante que no te puedes perder si estás en la región. ¡Disfruta de la naturaleza en su máxima expresión!","Sin duda, la Selva de Irati. Es uno de los bosques de hayas y abetos más extensos y mejor conservados de Europa, situado cerca de la frontera con Francia. En otoño el paisaje es espectacular por los colores rojos y amarillos de la vegetación, y además es el momento en el que puedes escuchar la ""berrea"" de los ciervos.",1,5,SI,['Desconocido'],10.32
+"Me han dicho que el Castillo de Peñafiel en Valladolid es ahora un museo, ¿de qué trata exactamente y qué espacios tiene?","¡Bienvenido a la guía turística!
+
+Me alegra informarte que el Castillo de Peñafiel en Valladolid es un museo llamado Museo Provincial del Vino. Este museo ofrece un interesante acercamiento a las técnicas de producción y elaboración del vino, así como a la tradición agrícola de la comarca.
+
+El museo cuenta con dos dependencias perfectas para albergar eventos:
+
+1. **Sala profesional de catas**: ideal para degustaciones y cata de vinos.
+2. **Salón de actos**: perfecto para reuniones y eventos.
+
+El Castillo de Peñafiel es un lugar impresionante con vistas panorámicas de viñedos y ofrece una experiencia única para los amantes del vino y la historia.
+
+¡Espero que disfrutes tu visita al Museo Provincial del Vino en el Castillo de Peñafiel!","Efectivamente, ha sido reconvertido en el Museo Provincial del Vino, donde se muestran las técnicas de producción y la tradición agrícola de la zona. En cuanto a sus instalaciones, dispone de una sala profesional de catas y un salón de actos perfectos para albergar eventos, con una capacidad máxima de 140 personas en formato teatro.",1,1,SI,['Desconocido'],10.09
+Me gustaría probar una tempura auténtica en un sitio con historia. ¿Conoces algún restaurante antiguo en Tokio y podrías explicarme en qué consiste el plato exactamente?,"¡Hola! Me alegra ayudarte a encontrar un restaurante antiguo en Tokio donde puedas probar una auténtica tempura.
+
+Según la información proporcionada, te recomiendo visitar el restaurante **Sansada**, que es el restaurante de tempura más antiguo de Japón, establecido en 1837 en el barrio de Asakusa, el corazón del centro de Tokio. Este restaurante ofrece una experiencia única para probar la auténtica tempura japonesa.
+
+La tempura es un plato tradicional japonés que consiste en verduras y productos del mar rebozados con una mezcla hecha de harina, huevos y agua, que se fríe en abundante aceite. Normalmente se sirve junto con una ligera salsa para mojar hecha.
+
+Sansada es un lugar ideal para probar la tempura en un entorno histórico y auténtico. ¡Espero que disfrutes de tu experiencia gastronómica en Tokio!","Te recomiendo visitar Sansada, situado en Asakusa (el antiguo barrio del centro). Fue establecido en 1837 y es el restaurante de tempura más antiguo de Japón. Este plato tradicional consiste en verduras y productos del mar rebozados con una mezcla de harina, huevos y agua, fritos en abundante aceite, y suele servirse con una salsa ligera.",1,4,SI,['Desconocido'],13.1
+"He oído que por la zona de Okubo-dori hay opciones gastronómicas variadas, incluso comida Halal. ¿Sabes dónde queda exactamente y si hay algún plato concreto que se esté poniendo de moda?","¡Hola! Me alegra ayudarte a encontrar opciones gastronómicas en la zona de Okubo-dori.
+
+Según la información proporcionada, hay un lugar llamado **Islam Yokocho** ubicado al fondo de un estrecho callejón cerca de la avenida principal Okubo-dori. Aquí puedes encontrar establecimientos de comida halal, tiendas que venden alimentos y especias, y una mezquita.
+
+En particular, mencionan que el **pollo asado a la parrilla** se está poniendo de moda, y se vende como comida para llevar. También hay opciones de kebab turco en la zona, pero no hay información específica sobre un plato concreto que esté de moda.
+
+Es importante tener en cuenta que la información proporcionada es limitada, por lo que te recomiendo explorar la zona y descubrir por ti mismo las opciones gastronómicas disponibles. ¡Disfruta tu experiencia culinaria en Okubo-dori!","Para comida Halal puedes ir a ""Islam Yokocho"", que se encuentra al fondo de un estrecho callejón cerca de la avenida principal Okubo-dori. En cuanto a tendencias, el texto menciona que el pollo dulce y especiado con sabor de gochujang parece que se está poniendo de moda, además de un supermercado (Seoul Ichiba) que atrae largas filas en su puesto especial.",1,3,SI,['Desconocido'],8.93
+"Me han comentado que el barrio de Okubo en Tokio es muy interesante, ¿qué ambiente me encontraré allí y qué tipo de comida ofrece?","¡Bienvenido a Okubo, un barrio fascinante en Tokio! En este sector multinacional conocido como ""Islam Yokocho"", podrás experimentar un ambiente único que combina la cultura islámica con la diversidad de la ciudad.
+
+En cuanto a la comida, encontrarás una gran variedad de opciones asiáticas y mediterráneas. Algunos de los platos destacados incluyen el pollo asado a la parrilla, hecho con pollo halal frotado con especias, que se vende tanto para comer en el lugar como para llevar. Además, podrás disfrutar de otros platos exóticos y deliciosos en un ambiente informal y acogedor.
+
+Okubo es un destino turístico ideal para aquellos que buscan experimentar la diversidad gastronómica de Tokio en un entorno relajado y auténtico. ¡Disfruta de tu visita a este barrio vibrante y multicultural!","Es descrito como uno de los distritos más variopintos de la ciudad, ya que en él se han establecido personas del Sudeste Asiático y Oriente Medio. Se ha convertido en un atractivo destino turístico donde puedes disfrutar de cualquier tipo de comida asiática en un ambiente informal.",1,4,SI,['Desconocido'],8.76
+Me interesa probar comida japonesa que no sea muy exótica. ¿Qué platos son populares y en qué consisten?,"¡Bienvenido a Japón! Me alegra ayudarte a descubrir la deliciosa comida japonesa.
+
+Si buscas platos populares y no muy exóticos, te recomiendo los siguientes:
+
+1. **Ramen**: Un popular plato de sopa de fideos que se sirve con carne o verduras. Puedes encontrar ramen en muchos restaurantes y estaciones de tren en todo Japón.
+2. **Udon**: Un plato de fideos gruesos que se sirve con salsa o caldo. Puedes encontrar udon en restaurantes y mercados en todo Japón.
+3. **Tempura**: Un plato de bocados de pescado o verduras fritos en aceite. Puedes encontrar tempura en muchos restaurantes y mercados en todo Japón.
+4. **Sushi**: Un plato de arroz y pescado fresco que se sirve con vinagre y wasabi. Puedes encontrar sushi en muchos restaurantes y mercados en todo Japón.
+5. **Onigiri**: Un plato de arroz formado en forma de triángulo y relleno con salmón, atún o tofu. Puedes encontrar onigiri en muchos restaurantes y mercados en todo Japón.
+
+Estos platos son muy populares y fáciles de encontrar en todo Japón. ¡Disfruta de la comida japonesa!","Un favorito para todas las edades es el Omu-raisu, que consiste en arroz frito con kétchup envuelto en una fina tortilla. Otra opción, perfecta por su cantidad y facilidad para comer, es el sute-ki-don, un cuenco de arroz cubierto de filete de res salteado con caldo de salsa de soja. Según mis fuentes puedes encontrar estas opciones en el restaurante KUROFUNE-TEI.",0,2,SI,['Desconocido'],9.73
+"Me encanta la cocina japonesa y busco ingredientes de primera calidad, como el katsuobushi. ¿Hay alguna tienda donde suelan comprar los profesionales y qué ambiente se respira allí?","¡Excelente elección de destino para buscar katsuobushi de alta calidad! Según el contexto, hay varias opciones para ti:
+
+1. **Yoshiike**: Esta tienda de alimentos frescos es el destino favorito de los cocineros profesionales y entendidos. El ambiente es alegre y dinámico, lleno de voces de vendedores de artículos y alimentos.
+2. **Iseoto**: Esta tienda antigua de productos secos, establecida en la década de 1860, es conocida por vender katsuobushi de la mejor calidad. La fachada de la tienda exhibe diversos productos, incluyendo katsuobushi.
+3. **Niki no Kashi**: Aunque no se menciona específicamente en el contexto, esta tienda vende más de 8.000 variedades de dulces japoneses e importados, y se encuentra en la calle principal del mercado de Ameyoko, que es conocido por sus tiendas de prestigio.
+
+Recuerda que Ameyoko es un mercado con más de 400 tiendas en la zona central y unos 1.200 establecimientos en toda el área, por lo que es posible que encuentres otras opciones interesantes mientras exploras el lugar. ¡Disfruta tu búsqueda de katsuobushi de alta calidad!","Deberías acercarte a Yoshiike, una tienda de alimentos frescos considerada el destino favorito de los cocineros profesionales y entendidos. Allí encontrarás katsuobushi de la mejor calidad (virutas de bonito seco ahumado indispensables para el caldo básico) y un ambiente alegre y dinámico marcado por las voces de los vendedores.",0,4,SI,['Desconocido'],15.36
+"Necesito un café rápido y barato, pero que no sea malo. ¿Alguna recomendación? Y para comer a mediodía, ¿qué me sugieres?","¡Hola! Me alegra ayudarte a encontrar un café rápido y barato en Tokio.
+
+Según la información proporcionada, te recomiendo visitar una tienda de conveniencia equipada con máquinas dispensadoras automáticas que sirven café de alta calidad a un precio razonable. Estas máquinas utilizan granos recién molidos para preparar un café delicioso.
+
+Para comer a mediodía, te sugiero probar algo de yoshoku, que es comida al estilo occidental adaptada al paladar japonés. Una opción popular es el Omu-raisu, que es una tortilla hecha de arroz frito y carne. También podrías considerar visitar una cafetería gestionada por sus propietarios, que ofrecen un desayuno económico que incluye café, tostadas, huevo y ensalada.","Para el café, puedes ir a una tienda de conveniencia: la mayoría tienen máquinas automáticas que muelen el grano al momento, ofreciendo gran calidad a un precio muy razonable. Para el almuerzo, te sugiero probar algo de yoshoku (comida occidental adaptada al paladar japonés), como el Omu-raisu.",1,2,SI,['Desconocido'],4.49
+"Busco un regalo original y divertido para llevarme de Japón. He visto accesorios con forma de comida, ¿qué tipos hay y merecen la pena?","¡Excelente elección! Los accesorios con forma de comida son una excelente opción para un regalo original y divertido de Japón. Algunos ejemplos que mencionan son:
+
+- Memorias USB con forma de camarones fritos
+- Pendientes con forma de sushi
+- Soportes para teléfonos inteligentes con forma de cuenco de ramen
+- Reglas con forma de porciones de pizza
+
+Estos accesorios son muy realistas y divertidos, y seguro que provocarán una sonrisa en el destinatario. Además, son prácticos y pueden ser utilizados en la vida diaria.
+
+Es importante destacar que la selección de comidas para replicar se hace del menú y requiere un proceso complejo con múltiples pasos para completar cada una.","Son regalos muy recomendables porque son divertidos, prácticos y seguro que provocan una sonrisa. Se trata de réplicas muy realistas pese a su pequeño tamaño. Puedes encontrar desde memorias USB con forma de camarones fritos y pendientes de sushi, hasta soportes para teléfonos con forma de cuenco de ramen o reglas que parecen porciones de pizza.",1,4,SI,['Desconocido'],8.41
+"He oído que hay unos pasteles rellenos de frijoles rojos, ¿cómo se comen? Y busco chocolates para llevar de regalo, ¿alguna recomendación?","¡Bienvenido a Tokio! Me alegra ayudarte en tu aventura gastronómica.
+
+**Cómo se comen los taiyaki:**
+Los taiyaki se comen **recién retirados de la parrilla mientras aún están calientes**. Esto significa que debes disfrutarlos en el momento, ya que su sabor y textura son mejores cuando están frescos.
+
+**Recomendación de chocolates:**
+Si buscas chocolates para llevar de regalo, te recomiendo los **dulces de chocolate con sabor de matcha** de la marca Nestle KitKat Mini. Estos chocolates son muy populares y tienen un sabor único y delicioso. También podrías considerar los chocolates de la marca **Nestle**, que ofrece una variedad de sabores y presentaciones.
+
+**Otra recomendación:**
+Si estás buscando un postre tradicional japonés, te recomiendo probar el **anmitsu** de Mihashi Honten. Este postre es un clásico de la cocina japonesa y consiste en gelatina de agar-agar, frutas, pasta de frijoles rojos y dulce almíbar de azúcar moreno, entre otros ingredientes. Es un postre muy popular y se ha mantenido inalterado desde su inicio en 1948.","Esos pasteles están rellenos de pasta dulce de frijoles rojos y se toman mientras aún están calientes. En cuanto a regalos, los dulces de chocolate con sabor a matcha son un recuerdo muy popular.",1,2,SI,['Desconocido'],10.48
+Me interesa la historia de los Ryokan. ¿Siempre han sido hoteles tal y como los conocemos o cómo empezaron?,"Excelente pregunta sobre la historia de los Ryokan. Según la información proporcionada, los Ryokan no siempre han sido hoteles como los conocemos hoy en día.
+
+Su origen se remonta al **Periodo Nara**, donde eran humildes casas de descanso gratuitas para el descanso de los viajeros. Luego, en el **Periodo Kamakura**, eran simples lugares de tránsito donde solo se cobraba el costo de la madera utilizada para calentarse y cocinar la comida del viajante.
+
+Finalmente, en el **Periodo Edo** (año 1750), el Ryokan surge de manera oficial para hospedar a las personas que viajaban entre **Edo** y **Kyoto**. Es en este período cuando los Ryokan comienzan a tomar forma como los conocemos hoy en día, con habitaciones de piso de tatami, onsen, jardines y comida típica japonesa.","Su origen se remonta al Periodo Nara, cuando eran humildes casas de descanso gratuitas para viajeros. Más adelante, en el Periodo Kamakura, funcionaban como simples lugares de tránsito donde únicamente se cobraba el coste de la madera utilizada para calentarse y cocinar la comida.",1,4,SI,['Desconocido'],9.67
+"Me gusta mucho la arquitectura y he oído que en Ueno hay un museo muy importante. ¿Sabes cuál es, quién lo diseñó y si tiene algún reconocimiento especial?","¡Excelente elección de destino! El museo que mencionas es el **Museo Nacional de Arte Occidental**, ubicado en el corazón del Parque de Ueno. Fue diseñado por el famoso arquitecto francés **Le Corbusier** y fue registrado como **Patrimonio de la Humanidad** por la UNESCO en **2016**. ¡Es un lugar imprescindible para cualquier amante de la arquitectura y la historia!","Se trata del Museo Nacional de Arte Occidental, establecido en 1959. Fue diseñado por el célebre Le Corbusier y su reconocimiento es tal que fue registrado como Patrimonio de la Humanidad en 2016.",1,4,SI,['Desconocido'],10.54
+Me han hablado de unos bocadillos japoneses curiosos: uno de croqueta y otro de frutas con nata. ¿Cómo son exactamente?,"¡Bienvenido a Japón! Me alegra ayudarte a descubrir algunos de los bocadillos japoneses más deliciosos.
+
+El primer bocadillo que me mencionas es el **Pan Korokke**. Según la información que tengo, es un emparedado que consiste en una croqueta japonesa llamada **Korokke**, que es una mezcla de carne picada, cebolla troceada y puré de papas envuelta en pan rallado y frita en aceite. El Korokke se coloca en un bollo cortado por la mitad, creando un delicioso emparedado.
+
+El segundo bocadillo que me mencionas es una crema batida con frutas frescas, como fresas o papayas, servida entre dos rebanadas de pan. No tengo más información específica sobre este bocadillo, pero parece ser un postre ligero y refrescante.
+
+Espero que esta información te sea útil. ¡Disfruta explorando la gastronomía japonesa!","El Pan Korokke (introducido en 1927 por Choshiya) es un emparedado que lleva una croqueta hecha de carne picada, cebolla y puré de patatas frita en abundante aceite, servida dentro de un bollo. Por otro lado, el emparedado de frutas lleva frutas frescas jugosas, como fresa o papaya, incorporadas a una crema batida ligeramente endulzada entre dos rebanadas de pan.",1,4,SI,['Desconocido'],10.99
+Dicen que los baños termales japoneses o onsen son muy buenos para el estrés. ¿Qué beneficios tienen realmente y hay alguna norma sobre la ropa?,"¡Bienvenido a Japón! Me alegra ayudarte a descubrir los beneficios de los baños termales japoneses, conocidos como onsen.
+
+**Beneficios de los onsen:**
+
+Los onsen son famosos por sus propiedades terapéuticas y de relajación. La riqueza de las aguas termales en sales minerales les otorga beneficios para la salud, como:
+
+* Reducción del estrés y la ansiedad
+* Mejora del estado de ánimo
+* Alivio del dolor muscular y articular
+* Mejora de la circulación sanguínea
+* Beneficios para la piel y el cabello
+
+**Normas para visitar un onsen:**
+
+Para disfrutar de un onsen de manera respetuosa y segura, es importante seguir estas normas:
+
+1. **Guardar objetos personales en un casillero**: Debes dejar tus objetos personales, como teléfonos y joyas, en un casillero para protegerlos.
+2. **Depositar la ropa en un cesto**: En el vestidor, debes depositar tu ropa, incluyendo la ropa interior, en uno de los cestos destinados para ese fin.
+3. **Llevar una toalla pequeña**: Solo puedes llevar una toalla pequeña, y debes tomar una ducha antes de entrar en el ofuro (baño, piscina).
+4. **Entrar desnudo**: En un onsen, es común entrar desnudo, con áreas separadas para hombres y mujeres.
+5. **Usar una pequeña toalla para la cabeza**: En algunas duchas, se proporciona una pequeña toalla para usar en la cabeza.
+
+Recuerda que los onsen son lugares de relajación y descanso, así que es importante respetar las normas y las tradiciones locales para disfrutar de una experiencia inolvidable.","Son ideales para escapar del estrés y se consideran uno de los pasatiempos más saludables. Sus aguas son ricas en sales minerales, lo que les da propiedades terapéuticas y de relajación. Se entra desnudo (en áreas separadas para hombres y mujeres) y únicamente se suele usar una pequeña toalla para la cabeza.",1,4,SI,['Desconocido'],25.22
+"Estoy paseando por la zona de Ameyoko,¿qué me recomiendas hacer?","¡Bienvenido a Ameyoko! Esta zona es famosa por su mercado animado y variedad de productos. Te recomiendo explorar la calle principal del mercado y dejar que la curiosidad te lleve a descubrir sus secretos.
+
+Puedes empezar visitando **Niki no Kashi**, una tienda de dulces y botanas que ofrece más de 8.000 variedades de productos. Luego, puedes dirigirte a **Iseoto**, un establecimiento conocido por su katsuobushi de alta calidad.
+
+También te recomiendo visitar **Yoshiike**, una tienda de alimentos frescos que cuenta con la mayor selección de la zona. Y, por supuesto, no te pierdas los enérgicos gritos de los comerciantes que pregonan sus productos en las tiendas a lo largo de la calle.
+
+Recuerda que hay más de 1.200 establecimientos en toda la zona, así que no te sientas abrumado. ¡Disfruta la experiencia y déjate llevar por la curiosidad!",Un corto paseo hacia el norte te llevará a los frondosos espacios verdes del Parque de Ueno. Es un lugar histórico inaugurado en 1876 sobre los antiguos terrenos del templo Kanei-ji (del Periodo Edo) y actualmente alberga numerosas instalaciones culturales y de investigación científica.,1,1,SI,['Desconocido'],28.02
+Voy a pasar una noche en un ryokan y tengo curiosidad sobre cómo es la experiencia de la cena y el sueño. ¿Es verdad que te sirven en la habitación? ¿Qué tipo de comida es y qué ropa se usa?,"¡Excelente elección de alojamiento! En un ryokan, la experiencia de la cena y el sueño es verdaderamente única y auténtica.
+
+**¿Es verdad que te sirven en la habitación?**
+
+Sí, es verdad. Dependiendo del ryokan, las comidas pueden tener lugar en las estancias privadas de cada habitación, donde se come sentado en cojines que por la noche han de dejar sitio al futon (cama japonesa).
+
+**¿Qué tipo de comida es?**
+
+La cena típica de los ryokan es la **kaiseki**, que son pequeños platos de gran variedad de comida japonesa, cada plato con detalles sumamente cuidados.
+
+**¿Qué ropa se usa?**
+
+Para dormir, el ryokan le proveerá de un **yukata** (bata japonesa).","Sí, dependiendo del ryokan, las comidas tienen lugar en las estancias privadas sentados en cojines. La cena típica es kaiseki, una gran variedad de pequeños platos con detalles muy cuidados. Después, los cojines dejan sitio al futon para dormir y el alojamiento te proveerá de un yukata (bata japonesa).",1,4,SI,['Desconocido'],26.63
+Busco un ambiente internacional en Tokio y me gustaría probar comida nepalí. ¿Qué zona me recomiendas y qué plato típico debería pedir?,"¡Hola! Me alegra ayudarte a encontrar un ambiente internacional en Tokio donde puedas probar comida nepalí.
+
+Considerando que hay un creciente número de nepalíes que viven en Okubo, te recomiendo visitar esta zona. Okubo es un distrito animado de la capital que ofrece una gran variedad de restaurantes internacionales, incluyendo aquellos que sirven comida nepalí.
+
+En cuanto a lo que debes pedir, te recomiendo probar los **Momo**, que son bolas de masa hervida rellenas con carne de pollo picada, cebolla y especias. Es un plato típico nepalí que es muy popular en Japón y seguro que te gustará.","Te recomiendo la zona de Okubo, situada a lo largo de la avenida Okubo-dori (cerca de las estaciones Shin-Okubo y Okubo), donde se han establecido personas de Corea, China, el Sudeste Asiático y Oriente Medio. En cuanto a comida nepalí, uno de los platos más populares es el Momo, que son bolas de masa hervida rellenas de carne de pollo picada, cebolla y especias.",1,4,SI,['Desconocido'],23.02
+"Me gustaría ver algo de teatro o comedia tradicional que sea único de Japón, ¿qué me recomiendas? Y de paso, ¿hay algún sitio famoso cerca para los que somos muy golosos?","¡Excelente elección! Si deseas ver algo de teatro o comedia tradicional única de Japón, te recomiendo visitar el **Teatro de Comedia Suzumoto**. Allí podrás disfrutar de una actuación de rakugo, una forma clásica de arte en la que un solo narrador relata historias cómicas utilizando solo la palabra y los gestos. Es una experiencia única y emocionante que te permitirá conocer el antiguo arte del narrador de historias de rakugo.
+
+Y, por supuesto, si eres goloso, no te pierdas la oportunidad de visitar **Mihashi Ueno Honten**, un lugar famoso por su especialidad local. También podrás disfrutar de la belleza del **Parque de Ueno**, que es famoso por sus flores de cerezo en primavera y sus flores de loto en verano. Además, si te interesa la naturaleza, podrás visitar el **Jardín Zoológico de Ueno**, que alberga más de 350 especies de animales diferentes.","Te sugiero visitar el Teatro de Comedia Suzumoto para conocer el rakugo, un arte clásico exclusivo de Japón en el que un solo narrador interpreta a todos los personajes de una historia cómica usando únicamente la palabra y los gestos. Para los más golosos, la recomendación definitiva es visitar Mihashi Ueno Honten, un lugar conocido por su popular especialidad.",1,4,SI,['Desconocido'],26.84
+"e encantan los museos de ciencias naturales, ¿hay alguno en Tokio donde pueda ver dinosaurios? Y ya que estoy, ¿hay algún sitio histórico o natural cerca para completar la visita?","¡Claro que sí! Hay un museo de ciencias naturales en Tokio donde puedes ver dinosaurios. El **Museo Nacional de la Naturaleza y las Ciencias** es un lugar impresionante que alberga muestras de animales disecados y esqueletos de dinosaurios. Es un destino popular y sumamente interesante.
+
+Si ya estás en el área de Ueno, te recomiendo visitar el **Parque de Ueno**, que es un lugar histórico y natural muy interesante. El parque es un famoso punto de observación de flores de cerezo y cuenta con varios lugares de interés, como el Jardín Zoológico de Ueno y el Museo Nacional de Arte Occidental, que es un Patrimonio de la Humanidad de la UNESCO.","Sí, en el Museo Nacional de la Naturaleza y las Ciencias encontrarás impresionantes muestras de animales disecados y esqueletos de dinosaurios. Cerca de allí, en el Parque de Ueno, puedes visitar el estanque de Shinobazu y admirar la pagoda de cinco pisos del antiguo templo de Kanei-ji.",1,4,SI,['Desconocido'],31.26
+Me han comentado que en Ueno hay un museo de arte muy importante diseñado por un arquitecto famoso. ¿Cuál es y qué reconocimiento tiene?,**El Museo Nacional de Arte Occidental** es el museo de arte importante diseñado por el famoso arquitecto francés **Le Corbusier**. Fue registrado como **Patrimonio de la Humanidad** en 2016 por la UNESCO.,"Es el Museo Nacional de Arte Occidental, establecido en 1959. Fue diseñado por el célebre Le Corbusier y su importancia es tal que fue registrado como Patrimonio de la Humanidad en 2016.",1,4,SI,['Desconocido'],24.97
+"Me gustaría ver animales, ¿qué tal es el zoo de Ueno? Y también me han hablado de un teatro de comedia por allí, ¿quién suele actuar?","¡Bienvenido a Ueno! Me alegra ayudarte a planificar tu visita.
+
+El Jardín Zoológico de Ueno es un lugar impresionante, con más de 350 especies de animales diferentes, incluyendo pandas gigantes y elefantes. Es un destino obligatorio para cualquier amante de la naturaleza y los animales.
+
+En cuanto al teatro de comedia, el Teatro de Comedia Suzumoto es un lugar emocionante donde puedes disfrutar de una actuación de rakugo todos los días. Los narradores, como Tachibanaya Entaro, son verdaderos maestros de la comedia japonesa. ¡No te pierdas la oportunidad de ver una actuación en vivo!
+
+Recuerda que el Jardín Zoológico de Ueno y el Teatro de Comedia Suzumoto están ubicados en el mismo área de Ueno, por lo que puedes visitar ambos lugares en un solo día. ¡Disfruta tu visita a Ueno!",": El Jardín Zoológico de Ueno es muy completo, alberga más de 350 especies diferentes de animales, entre las que destacan los populares pandas gigantes y los elefantes. Respecto a la comedia, en el Teatro de Comedia Suzumoto puedes disfrutar de actuaciones de rakugo todos los días con narradores como Tachibanaya Entaro.",1,4,SI,['Desconocido'],25.67
+¿Qué me ofrece realmente alojarme en un ryokan más allá de ser un simple sitio para dormir?,"**Al alojarte en un ryokan, puedes disfrutar de experiencias auténticas del estilo de vida japonés, como:**
+
+* Comer comida típica japonesa en un ambiente tradicional, que puede incluir platos como sushi, sashimi y otros platillos locales.
+* Relajarte en un **onsen** (baño termal) y disfrutar de la tranquilidad y la relajación que ofrece.
+* Explorar los jardines y la arquitectura tradicional del ryokan, que puede incluir elementos como tatamis, shoji (puertas de papel) y otros detalles característicos del estilo japonés.
+* Participar en actividades tradicionales, como la ceremonia del té o la observación de la naturaleza en el jardín.
+* Conocer la hospitalidad y la atención personalizada que ofrecen los ryokan, que pueden incluir servicios como la preparación de la comida en la habitación o la asistencia para planificar actividades locales.
+
+En resumen, alojarte en un ryokan es una oportunidad para sumergirse en la cultura y el estilo de vida japonés, y experimentar la autenticidad y la calidez de la hospitalidad nipona.","Alojarse en un ryokan es una oportunidad para familiarizarse con el estilo de vida nipón, el cual ha sido conservado a lo largo de muchas generaciones.",1,4,SI,['Desconocido'],25.95
+Me preocupa un poco el tema de las normas de etiqueta en los alojamientos tradicionales. ¿En qué momento debo quitarme los zapatos al entrar en un ryokan y qué uso para andar por dentro?,"**La entrada a un ryokan**
+
+Al entrar en un ryokan, debes quitarte los zapatos antes de pisar el tatami. Después, puedes calzarte con un par de **zori** (sandalias japonesas) que generalmente se proporcionan en el ryokan.","Debes quitarte los zapatos en la entrada, justo antes de pisar el tatami. Después, para moverte por el interior, podrás calzarte un par de zori (sandalias japonesas).",0,5,SI,['Desconocido'],29.7
+"Me gusta mucho la tempura, ¿conoces algún sitio histórico en Tokio al que debería ir a probarla?","¡Excelente elección de plato! Si te gusta la tempura, te recomiendo visitar el restaurante **Sansada**, ubicado en el barrio de Asakusa, en el centro de Tokio. Es el restaurante de tempura más antiguo de Japón, fundado en 1837, y ofrece una experiencia única para probar esta deliciosa especialidad japonesa.","Sin duda deberías visitar Sansada, situado en el antiguo barrio de Asakusa. Fundado en 1837, es el restaurante de tempura más antiguo de Japón.",1,4,SI,['Desconocido'],23.35
+"Me han recomendado ir de compras a Ameyoko, en Ueno. ¿Es un mercado muy grande? ¿Qué tipo de cosas venden?","¡Bienvenido a Ameyoko!
+
+Ameyoko es un mercado al aire libre muy grande, con aproximadamente 400 tiendas en la zona central y unos 1.200 establecimientos en toda el área. Es un lugar emocionante donde podrás encontrar todo tipo de productos, como:
+
+* Alimentos frescos
+* Productos de uso diario
+* Ropa y accesorios
+* Restaurantes
+
+Además, hay algunas tiendas muy famosas en la zona, como Niki no Kashi, que vende más de 8.000 variedades de dulces japoneses e importados, y Iseoto, un establecimiento conocido por su katsuobushi de la mejor calidad.
+
+Así que prepárate para una experiencia inolvidable en Ameyoko, ¡y no te pierdas la oportunidad de descubrir sus secretos y sorpresas!","Sí, es enorme; cuenta con aproximadamente 400 tiendas en la zona central y unos 1.200 establecimientos en toda el área. Comenzó como un mercado al aire libre tras la Segunda Guerra Mundial y hoy en día venden de todo: desde alimentos frescos y productos de uso diario hasta ropa, accesorios y restaurantes.",1,4,SI,['Desconocido'],24.31
+He visto en los escaparates de muchos restaurantes unos platos de comida que parecen de plástico pero son muy realistas. ¿Qué son exactamente?,**Las reproducciones de comidas** que has visto en los escaparates de los restaurantes son auténticos modelos a escala real de comidas hechos de resina sintética. Estos modelos han sido creados meticulosamente por artesanos desde la década de 1920 y se han convertido en habituales en los restaurantes. Su apariencia realista se debe a las técnicas de los artesanos que los confeccionan.,"Son reproducciones a escala real hechas de resina sintética, creadas originalmente como reclamo para los clientes. Se han convertido en algo habitual desde la década de 1920 y su apariencia tan real se debe a las técnicas de artesanos que las confeccionan meticulosamente.",1,1,SI,['Desconocido'],27.03
+"Dicen que en el restaurante Kaiseki Komuro preparan un cangrejo azul espectacular. Si quiero probarlo en su mejor momento, ¿en qué fechas debería ir a Japón?","**No tengo suficiente información para determinar las fechas óptimas para probar el cangrejo azul en su mejor momento en el restaurante Kaiseki Komuro.**
+
+Sin embargo, puedo decir que el cangrejo azul de las nieves es un manjar de invierno, lo que sugiere que es más probable que esté disponible en invierno. Pero no tengo información específica sobre las fechas exactas en que se puede disfrutar de este plato en el restaurante Kaiseki Komuro.","eberías ir en invierno, ya que la carne de cangrejo azul de las nieves es un apreciado manjar de esta estación. Se suele servir cocido al vapor dentro de su propio caparazón.",1,3,SI,['Desconocido'],19.13
+"Busco un souvenir original y divertido para llevarme de Japón. He visto que venden accesorios que parecen comida real, ¿qué tipo de objetos hacen y cómo son?","¡Excelente elección de souvenir! Los accesorios que parecen comida real son muy divertidos y originales. Algunos ejemplos de objetos que se pueden encontrar son:
+
+* Memorias USB con forma de camarones fritos
+* Pendientes con forma de sushi
+* Soportes para teléfonos inteligentes con forma de cuenco de ramen
+* Reglas con forma de porciones de pizza
+* Accesorios de diseño con forma de otros platos japoneses populares, como ramen, udon, tempura, etc.
+
+Estos accesorios son muy realistas y prácticos, y son ideales para llevar como recuerdo de tu viaje a Japón. ¡Seguro que te harán sonreír!","Son réplicas de pequeño tamaño pero muy realistas que se han convertido en accesorios populares, divertidos y prácticos. Puedes encontrar cosas como memorias USB con forma de camarones fritos, pendientes con forma de sushi, soportes para teléfonos inteligentes con forma de cuenco de ramen o reglas con forma de porciones de pizza.",1,4,SI,['Desconocido'],19.2
+Voy a viajar a Japón en verano y me han dicho que el congrio es muy bueno en esa época. ¿Cómo lo suelen preparar y servir para que sea refrescante?,"¡Hola! Me alegra ayudarte a planificar tu viaje a Japón en verano.
+
+Según la información proporcionada, el congrio se prepara y sirve de la siguiente manera para ser refrescante:
+
+1. El congrio se escalda.
+2. Luego se sumerge inmediatamente en agua helada.
+3. Se sirve en un cuenco con caldo de alga konbu.
+4. El caldo se decorado con un corte de cítrico verde yuzu en forma de estrella.
+
+Espero que esta información te sea útil para disfrutar del delicioso congrio en Japón en verano. ¡Buen provecho!",El congrio es un manjar especialmente graso en verano. Se prepara escaldándolo y sumergiéndolo inmediatamente en agua helada. Se sirve en un cuenco con caldo de alga konbu y decorado con un corte de cítrico verde yuzu en forma de estrella.,1,2,SI,['Desconocido'],4.25
+¿qué es el kakiage?,"La respuesta a tu pregunta es:
+
+**El kakiage** es un plato de tempura que se hace rebozando y friendo en abundante aceite una mezcla de ingredientes tales como pequeños camarones, calamares y almejas.",Es un tipo de tempura el cual se elabora rebozando y friendo en abundante aceite una mezcla de ingredientes.,1,4,SI,['Desconocido'],3.87
+"Quiero probar el auténtico ramen de Tokio, ¿qué lo caracteriza? Además, viajo con una persona vegetariana, ¿existen opciones sin carne?","¡Bienvenido a Tokio! Me alegra ayudarte a encontrar el auténtico ramen de la ciudad.
+
+El clásico tokyo ramen se caracteriza por un caldo ligero y sabroso a base de salsa de soja. Es un plato tradicional que debes probar.
+
+Si viajas con una persona vegetariana, no te preocupes, hay opciones sin carne. En años recientes, los restaurantes han empezado a ofrecer ramen vegano, que no contiene ningún ingrediente animal y puede ser consumido por los que no comen carne.
+
+Recuerda que si las filas de espera son largas, es probable que estés en un lugar delicioso, así que no dudes en esperar un rato para disfrutar de un buen ramen.
+
+¡Disfruta tu experiencia gastronómica en Tokio!","El clásico tokyo ramen se caracteriza por un caldo ligero y sabroso a base de salsa de soja. En cuanto a las opciones sin carne, en años recientes los restaurantes han empezado a ofrecer ramen vegano sin ingredientes animales. Para encontrar un buen sitio, busca donde las filas de espera sean largas; eso suele indicar que el ramen es delicioso. También ten en cuenta que a menudo hay que comprar los tickets de antemano.",1,1,SI,['Desconocido'],4.54
+¿Qué opción económica me recomiendas para desayunar?,**La opción económica para desayunar que te recomiendo es comprar algo en una máquina dispensadora de una tienda de conveniencia.**,"Para empezar el día de forma económica, la recomendación es el desayuno de menú fijo en una cafetería clásica, que suele incluir café y tostadas.",0,2,SI,['Desconocido'],30.54
+Nunca he estado en un onsen y me preocupa un poco no saber comportarme. ¿Cuáles son los pasos básicos que debo seguir con mi ropa y antes de entrar al agua?,"¡Claro que sí! Como guía turístico experto, te ayudaré a entender los pasos básicos para comportarte en un onsen.
+
+**Paso 1: Guardar objetos personales y ropa**
+Antes de entrar al onsen, debes guardar tus objetos personales en un casillero y depositar tu ropa (incluyendo ropa interior) en uno de los cestos destinados para ese fin.
+
+**Paso 2: Tomar una ducha**
+Lleva una toalla pequeña y toma una ducha antes de entrar en el ofuro (baño, piscina). Las duchas están provistas de jabón y champú.
+
+**Paso 3: Entrar desnudo**
+Entrar en el ofuro completamente desnudo, sin llevar toalla ni jabón, a excepción de la pequeña toalla que normalmente se usa para ponerse en la cabeza.
+
+**Paso 4: Salir y secarse**
+Al salir del ofuro, sécate un poco antes de llegar al cesto donde guardas tu ropa interior, para evitar dejar el suelo mojado.
+
+Recuerda que los onsen son lugares donde tomar un baño, no donde bañarse, por lo que es importante seguir estas normas para respetar a los demás usuarios y disfrutar de la experiencia. ¡Disfruta de tu estancia en el onsen!","Los onsen tienen normas específicas porque son lugares para relajarse, no para lavarse dentro del agua. Primero, debes guardar los objetos personales en un casillero. En el vestidor, tienes que depositar toda tu ropa (incluida la interior) en los cestos destinados a ello. Solo se permite llevar una toalla pequeña y es obligatorio tomar una ducha antes de entrar en el ofuro (baño o piscina).",1,4,SI,['Desconocido'],32.12
+"Quiero empezar el día comiendo como un auténtico tokiota. ¿Dónde puedo encontrar un desayuno tradicional y en qué consiste exactamente? También he oído que en Japon tienen su propia versión de ""comida rápida"", ¿a qué se refiere?","¡Bienvenido a Tokio! Me alegra ayudarte a descubrir la comida tradicional japonesa.
+
+Para empezar el día como un auténtico tokiota, te recomiendo visitar un **teishokuya**, que es un restaurante que ofrece comidas tradicionales japonesas. En un teishokuya, puedes disfrutar de un desayuno tradicional japonés que consiste en:
+
+* Arroz blanco
+* Plato principal (que puede ser carne, pescado o verduras)
+* Guarnición (que puede ser ensalada, verduras o frutas)
+* Sopa de miso
+
+Estos restaurantes suelen ofrecer un ambiente acogedor y auténtico, donde puedes sentir la esencia de la cultura japonesa.
+
+En cuanto a la comida rápida japonesa, te refiero a los **onigiri**, que son bolas de arroz hechas comprimiendo suavemente arroz cocido junto con verduras encurtidas u otros ingredientes. Los onigiri son una opción popular para desayunar o merendar en la calle. Puedes encontrarlos en tiendas de conveniencia o en establecimientos especializados que los preparan con arroz y ingredientes cuidadosamente seleccionados.
+
+Espero que disfrutes de tu experiencia gastronómica en Tokio!","Para un desayuno clásico, puedes acudir a restaurantes familiares o a locales de comidas tradicionales llamados teishokuya. El menú típico consiste en arroz blanco, un plato principal con guarnición y sopa de miso. En cuanto a la ""comida rápida"" japonesa, el texto hace referencia a los onigiri.",1,1,SI,['Desconocido'],25.72
+He oído términos contradictorios sobre la cocina kaiseki. ¿Es algo sencillo o lujoso? ¿Qué significa realmente y quién es un referente en Tokio?,"La cocina kaiseki es un término que puede ser contradictorio, ya que se refiere a dos variedades gastronómicas japonesas diferentes: una sencilla y modesta comida inspirada en el espíritu de la ceremonia del té, y un tipo de comida de banquete originado en el Periodo de Edo (1603-1868).
+
+En realidad, la cocina kaiseki es un estilo de cocina que se enfoca en la presentación y la calidad de los ingredientes, utilizando frescos productos del mar y verduras de montaña. Los aperitivos que se sirven en restaurantes de alta gama como Kaiseki Komuro, propiedad de Komuro Mitsuhiro, son preparados con gran exquisitez y minuciosa atención a los detalles.
+
+En cuanto a quién es un referente en Tokio, Komuro Mitsuhiro es un experto en la cocina kaiseki y dueño del restaurante Kaiseki Komuro, ubicado en Kagurazaka, Tokio.","La palabra kaiseki hace referencia a dos variedades: la sencilla y modesta comida inspirada en el espíritu de la ceremonia del té, y el tipo de comida de banquete originado en el Periodo de Edo (1603-1868). Un referente mencionado es Komuro Mitsuhiro, dueño del restaurante de alta gama Kaiseki Komuro en Kagurazaka.",1,4,SI,['Desconocido'],23.92
+Quiero alojarme en un sitio puramente japonés. ¿Qué instalaciones suele tener un ryokan típico y para qué tipo de viajero se creó originalmente?,"**Un típico ryokan japonés suele tener las siguientes instalaciones:**
+
+- Habitaciones de piso de tatami
+- Onsen (baños termales)
+- Jardines
+- Comida típica japonesa
+
+**Originalmente, un ryokan se creó para hospedar a visitantes de corto plazo, especialmente a aquellos que viajaban entre **_Edo_** y **_Kyoto_**, durante el Periodo Edo.**","Un ryokan típico cuenta con habitaciones de piso de tatami, onsen (baños termales), jardines y comida típica japonesa. Originalmente se creó para hospedar a visitantes de corto plazo, aunque hoy en día es muy popular entre los turistas extranjeros.",1,4,SI,['Desconocido'],23.74
+"Tengo curiosidad por la experiencia de cenar y dormir en un ryokan. ¿Dónde se sirve la comida y qué ocurre en la habitación cuando llega la hora de dormir? Además, ¿qué ropa facilitan?","¡Excelente elección de alojamiento! En un ryokan, la comida se sirve en las estancias privadas de cada habitación, donde se come sentado en cojines. Por la noche, estos cojines deben ser retirados para dejar espacio al futon, que es la cama japonesa.
+
+En cuanto a la ropa, el ryokan facilitará un yukata, que es una bata japonesa, para que puedas dormir cómodamente.
+
+Recuerda que en un ryokan, es común que los huéspedes se despierten temprano para disfrutar del ambiente tranquilo y relajante del lugar. ¡Disfruta tu estancia en el ryokan!","Dependiendo del ryokan, las comidas tienen lugar en las estancias privadas, donde se come sentado en cojines que por la noche dejan sitio al futon. La cena típica es kaiseki (pequeños platos muy cuidados) y para dormir el alojamiento provee un yukata.",1,4,SI,['Desconocido'],18.58
+"Aparte de la gastronomía, ¿qué hace especial al distrito de Ueno y qué otras actividades ofrece a los visitantes?","El distrito de **Ueno** ofrece a los visitantes una amplia gama de atractivos aparte de la gastronomía, como:
+
+* Ir de compras en zonas como Ameyoko, una de las zonas comerciales más famosas y concurridas de Japón.
+* Contemplar el arte en el **Museo Nacional de la Naturaleza y las Ciencias de Tokio**, que es sumamente popular por su exposición de esqueletos de dinosaurios.
+* Visitar el **Parque de Ueno**, un famoso punto de observación de flores de cerezo y que alberga el **Estanque de Shinobazu**.
+* Explorar el **Museo de Arte Occidental**, diseñado por el famoso arquitecto francés Le Corbusier y que está inscrito como Patrimonio de la Humanidad de la UNESCO.","Ueno se describe como un lugar donde la historia y la cultura brillan entre el bullicio de la gran ciudad. Además de la comida, ofrece atractivos como ir de compras y la contemplación del arte.",1,4,SI,['Desconocido'],4.39
+oy un apasionado de la arquitectura y el arte. ¿Hay algún museo en el Parque de Ueno que deba visitar por su diseño?,**El Museo Nacional de Arte Occidental** es un lugar que debes visitar por su diseño. Fue diseñado por el famoso arquitecto francés Le Corbusier y está inscrito como Patrimonio de la Humanidad de la UNESCO. Su diseño es impresionante y merece una visita.,"Sin duda, destaca el Museo Nacional de Arte Occidental, diseñado por el famoso arquitecto francés Le Corbusier. Además, el parque es sede de siete museos y galerías de arte en total, así como del Jardín Zoológico de Ueno, inaugurado en 1882.",1,4,SI,['Desconocido'],4.04
+"Busco un barrio en Tokio que sea multicultural y donde pueda comer comida asiática auténtica de diferentes países, no solo japonesa. ¿Cuál es el mejor sitio para eso?","¡Excelente elección de destino! Según el contexto, el mejor sitio para disfrutar de comida asiática auténtica de diferentes países en Tokio es **Okubo**. Este barrio se ha convertido en un destino turístico atractivo debido a su variedad de opciones gastronómicas asiáticas en un ambiente informal.",El lugar ideal es Okubo. Se ha convertido en uno de los distritos más variopintos de la ciudad debido a que se han establecido allí personas del Sudeste Asiático y el Oriente Medio. Es un destino turístico excelente para disfrutar de todo tipo de comida asiática en un ambiente informal.,0,1,SI,['Desconocido'],4.44
+¿En qué conocido barrio de Tokio se pueden encontrar lugares de apicultura y por qué funciona bien allí?,"**Ginza** es el conocido barrio de Tokio donde se pueden encontrar lugares de apicultura. Funciona bien allí debido a las excelentes condiciones para la apicultura, como la proximidad de lugares con vegetación, fuente de néctar y polen, la ausencia de pesticidas y los inviernos no tan fríos.","Se trata de Ginza. Es un lugar excelente para la apicultura porque está cerca de zonas con abundante vegetación, como el Palacio Imperial y el Parque de Hibiya, que sirven de fuente de néctar y polen.",1,4,SI,['Desconocido'],13.67
+Solo dispongo de un día para visitar Tokio. ¿Crees que me dará tiempo a disfrutar de su cultura gastronómica?,"¡Claro que sí! Aunque solo tengas un día para visitar Tokio, creo que puedes disfrutar de su cultura gastronómica. La propuesta ""Saboreando Tokio en un día"" te ofrece una guía para degustar los principales ""sabores de Tokio"" en un corto espacio de tiempo.
+
+Puedes comenzar el día con un desayuno japonés en un teishokuya, donde podrás disfrutar de un clásico menú que consiste en arroz blanco, plato principal y guarnición, y sopa de miso. Luego, puedes explorar los animados distritos de la capital y sus restaurantes para probar otros platos tradicionales japoneses.
+
+También puedes probar los onigiri, una especie de comida rápida japonesa que es fácil de encontrar en cualquier lugar. Además, si tienes tiempo, puedes visitar un restaurante que ofrezca sushi servido en cintas transportadoras, una experiencia única y divertida.
+
+Recuerda que, aunque solo tengas un día, puedes disfrutar de la diversidad gastronómica de Tokio y experimentar su increíblemente variada oferta. ¡Buen provecho!","Aunque es difícil degustar todos los aspectos de esta cultura en un solo día,  puedes disfrutar de los principales “sabores de Tokio”, así como del ambiente de los animados distritos de la capital y sus restaurantes en ese corto espacio de tiempo.",1,4,SI,['Desconocido'],7.58
+Me interesa conocer los ingredientes locales de Japón. ¿Qué productos destacan en la región?,"¡Bienvenido a Japón! Me alegra que estés interesado en conocer los ingredientes locales de nuestro país.
+
+En Japón, hay varios productos destacados en diferentes regiones. Algunos de los más destacados son:
+
+* **Tomates**: Tokio es conocido por producir tomates de alta calidad, con un sabor dulce y un alto contenido en azúcares.
+* **Almejas asari**: Estas almejas son ricas en taurina y se utilizan en muchos platos japoneses.
+* **Wasabi**: El wasabi es un condimento japonés muy conocido, con un sabor picante que se utiliza en platos como el sashimi y el sushi.
+* **Daikon**: El daikon es una hortaliza de raíz que se utiliza en muchos platos tradicionales japoneses, incluyendo los de la región de Nerima, donde se cultiva una variedad más grande que otras.
+
+Espero que esta información te sea útil. ¿Hay algo más que quieras saber sobre la comida japonesa?","Primero, el wasabi de Okutama (una zona montañosa con manantiales de agua fresca), que es el condimento perfecto para sashimi, sushi y fideos soba. Segundo, el daikon de Nerima, una hortaliza de raíz utilizada en guisos y encurtidos, que se distingue por ser más grande que otras variedades.",1,2,SI,['Desconocido'],14.54
+¿Es verdad que la cultura gastronómica en Japón es importante? ¿Desde cuándo empezó a desarrollarse?,"Sí, es verdad que la cultura gastronómica en Japón es importante. Según el contexto proporcionado, se desarrolló durante el Periodo de Edo (1603-1868), cuando la gente común de Japón empezó a desarrollar un gusto especial por la gastronomía y surgió una gran variedad de restaurantes, lo que sentó las bases de la cultura gastronómica que posee **Tokio** en la actualidad.","las bases de la floreciente cultura gastronómica que posee Tokio en la actualidad se sentaron en el Periodo de Edo (1603-1868). Fue en ese momento cuando la gente común empezó a desarrollar un gusto especial por la gastronomía, surgieron gran variedad de restaurantes y la cocina se hizo más refinada.",1,4,SI,['Desconocido'],8.15
+"Estoy en la Estación de Tokio y quiero ir a Ueno. ¿Qué línea de tren debo tomar, cuánto tardaré?",ERROR,"Debes tomar la Línea JR Yamanote y llegarás en solo diez minutos. Allí encontrarás un contraste irresistible: por un lado, Ameyoko (una bulliciosa zona comercial) y por otro, el Parque de Ueno (un centro cultural y artístico).",0,1,NO,['Desconocido'],15.34
+Me apetece probar snacks tradicionales japoneses mientras paseo. ¿Qué son los taiyaki y los senbei?,"¡Excelente elección! Mientras paseas por Ueno, te recomiendo probar los siguientes snacks tradicionales japoneses:
+
+* **Taiyaki**: Son pequeños pasteles de arroz rellenos de azúcar, frutas o otros ingredientes, que se cocinan en un molde de forma de pez. Puedes encontrarlos en muchas tiendas de dulces y puestos de comida callejera.
+* **Senbei**: Son galletas de arroz secas y saladas, a menudo decoradas con patrones y colores vibrantes. Pueden ser saladas o dulces, y a menudo se acompañan con un té tradicional japonés. Puedes encontrarlos en tiendas de dulces y puestos de comida callejera.
+
+Recuerda que Ueno es un barrio con una rica historia y cultura, y hay muchos lugares para probar estos snacks tradicionales japoneses. ¡Disfruta de tu paseo y de los sabores auténticos de Japón!","Los taiyaki son pasteles estilo gofre con forma de pargo rojo (tai) rellenos de pasta dulce de frijoles rojos; lo ideal es comerlos calientes, recién salidos de la parrilla. Los senbei son un refrigerio muy popular que satisface el apetito; aún quedan muchos establecimientos especializados en la zona antigua del centro de Tokio.",0,3,SI,['Desconocido'],15.42
+Me han dicho que la cocina japonesa es muy sana y visual. ¿Cuáles son sus características principales y en qué época histórica floreció este estilo?,"La cocina japonesa es caracterizada por el uso de ingredientes frescos de temporada, un excelente equilibrio nutricional y una esmerada atención al arreglo y la presentación de los alimentos. 
+
+La cultura gastronómica representativa de Japón floreció durante el Periodo de Edo (1603-1868), una época de prolongada estabilidad política y paz bajo el gobierno de líderes militares de la familia Tokugawa.","Se caracteriza por el uso de ingredientes frescos de temporada, su excelente equilibrio nutricional y una esmerada atención a la presentación. Esta cultura floreció durante el Periodo de Edo, gracias a la prolongada estabilidad política y la paz bajo el Shogunato Tokugawa.",1,4,SI,['Desconocido'],5.43

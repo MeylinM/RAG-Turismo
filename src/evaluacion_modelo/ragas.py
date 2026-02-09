@@ -40,7 +40,7 @@ ENV_PATH = os.path.join(project_root, ".env")
 load_dotenv(dotenv_path=ENV_PATH)
 
 GOLDEN_SET_PATH = os.path.join(data_dir, "golden_set_turismo.jsonl")
-RESULTADOS_CSV = os.path.join(current_dir, "reporte_evaluacion_final.csv")
+RESULTADOS_CSV = os.path.join(current_dir, "reporte_evaluacion_final3.csv")
 
 # Configuración del Juez (Usamos OpenAI o el que tengas en .env para juzgar)
 client_juez = OpenAI(

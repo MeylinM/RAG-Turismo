@@ -5,6 +5,8 @@
 ![Streamlit](https://img.shields.io/badge/Streamlit-Frontend-red.svg)
 ![RAG](https://img.shields.io/badge/RAG-Multimodal-orange.svg)
 
+Un sistema de recuperación aumentada (RAG) avanzado capaz de planificar viajes a Japón y España, integrando búsqueda híbrida, reordenamiento semántico y respuesta multimodal.
+
 ## 📖 Descripción del Proyecto
 
 **Cicerón** es un sistema avanzado de *Retrieval-Augmented Generation* (RAG) especializado en turismo para **Japón y España**. 

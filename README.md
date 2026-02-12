@@ -56,7 +56,7 @@ Se realizaron pruebas con distintos tamaños de chunk para encontrar el balance 
 
 > **Captura de los resultados del script `02_evaluar_chunks.py`:**
 
-![Evidencia Chunks](dara/Resultado_Evaluacion_Chunks.png)  
+![Evidencia Chunks](data/Resultado_Evaluacion_Chunks.png)  
 *(Si no carga la imagen: Hit Rate promedio de 0.88 con chunks de 512 tokens)*
 
 ### 2. Evaluación de Generación (RAGAS / LLM-Judge)

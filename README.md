@@ -19,24 +19,34 @@ Cicerón es **Multimodal** que entiende texto y responde con texto e imagenes. U
 ```text
 
 ├── 📂 data/                          # Almacén de datos
-│   ├── pdf/                          # Guías turísticas fuente
-│   ├── imagenes_extraidas/           # Imágenes procesadas para multimodalidad
-│   └── metadatos_pdfs.json           # Metadatos manuales para el Router
-│ 
+│   ├── 📂 imagenes_extraidas/        # Imágenes procesadas para multimodalidad
+│   └── 📂 pdf/                       # PDFs fuente, Golden Sets (JSONL) y reportes visuales
+│
 ├── 📂 chroma_db_multimodal/          # Base de datos vectorial persistente
-│ 
+│
 ├── 📂 src/                           # Código Fuente
-│   ├── 01_Ingesta_multimodal.py      # ETL: Procesa PDFs, extrae texto/imgs y vectoriza
-│   ├── 02_evaluar_chunks.py          # Script de métricas (Hit Rate, MRR)
+│   │
+│   ├── 📂 app/                       # Frontend e Interfaz
+│   │   ├── 📂 img/                   # Recursos gráficos de la app
+│   │   ├── 04_APP.py                 # Punto de entrada de la aplicación Streamlit
+│   │   ├── info.txt                  # Textos informativos para la UI
+│   │   └── style.css                 # Hoja de estilos (CSS)
+│   │
+│   ├── 📂 evaluacion_modelo/         # Scripts de Ingesta, RAGAS y Métricas
+│   │   ├── 01_Ingesta_multimodal_metadata.py # ETL: Procesamiento y vectorización
+│   │   ├── 02_evaluar_chunks.py      # Script de evaluación de fragmentación
+│   │   ├── ground_truth.py           # Generación de dataset de verdad (Ground Truth)
+│   │   ├── ragas.py                  # Evaluación del modelo usando librería Ragas
+│   │   └── reporte_evaluacion_*.csv  # Reportes de métricas generados
+│   │
 │   ├── 03_API_Separada.py            # Backend: API REST con FastAPI
-│   ├── 04_APP.py                     # Frontend: Interfaz de usuario con Streamlit
-│   ├── modelo_base.py                # Orquestador principal
-│   ├── query_rewriting.py            # Módulo de reescritura
-│   ├── semantic_router.py            # Módulo de enrutamiento
-│   ├── rrf.py                        # Búsqueda Híbrida + Fusión
-│   ├── reranker.py                   # Sistema de Re-ranking
-│   └── utils.py                      # Utilidades y logging
-│ 
+│   ├── modelo_base.py                # Orquestador principal del flujo RAG
+│   ├── query_rewriting.py            # Módulo de reescritura de consultas
+│   ├── reranker.py                   # Sistema de Re-ranking (Cross-Encoder)
+│   ├── rrf.py                        # Fusión de resultados (Reciprocal Rank Fusion)
+│   ├── semantic_router.py            # Enrutamiento semántico de intenciones
+│   └── utils.py                      # Funciones auxiliares y configuración
+│
 ├── .env                              # Variables de entorno (API Keys)
 ├── requirements.txt                  # Dependencias del proyecto
 └── README.md                         # Documentación

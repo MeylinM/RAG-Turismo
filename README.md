@@ -11,7 +11,7 @@ Un sistema de recuperación aumentada (RAG) avanzado capaz de planificar viajes 
 
 **Cicerón** es un sistema avanzado de *Retrieval-Augmented Generation* (RAG) especializado en turismo para **Japón y España**. 
 
-A diferencia de los chatbots convencionales, Cicerón es **Multimodal** (entiende texto e imágenes) y utiliza una arquitectura de agentes para garantizar que la información sea veraz, utilizando guías oficiales y no el conocimiento general alucinado de un LLM.
+Cicerón es **Multimodal** que entiende texto y responde con texto e imagenes. Utiliza una arquitectura de agentes para garantizar que la información sea veraz, utilizando guías oficiales y no el conocimiento general alucinado de un LLM.
 
 ---
 

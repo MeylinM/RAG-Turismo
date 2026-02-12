@@ -15,7 +15,35 @@ Cicerón es **Multimodal** que entiende texto y responde con texto e imagenes. U
 
 ---
 
-## 🚀 Arquitectura Advanced RAG
+## 📂 Estructura del Proyecto
+```text
+
+├── 📂 data/                          # Almacén de datos
+│   ├── pdf/                          # Guías turísticas fuente
+│   ├── imagenes_extraidas/           # Imágenes procesadas para multimodalidad
+│   └── metadatos_pdfs.json           # Metadatos manuales para el Router
+│ 
+├── 📂 chroma_db_multimodal/          # Base de datos vectorial persistente
+│ 
+├── 📂 src/                           # Código Fuente
+│   ├── 01_Ingesta_multimodal.py      # ETL: Procesa PDFs, extrae texto/imgs y vectoriza
+│   ├── 02_evaluar_chunks.py          # Script de métricas (Hit Rate, MRR)
+│   ├── 03_API_Separada.py            # Backend: API REST con FastAPI
+│   ├── 04_APP.py                     # Frontend: Interfaz de usuario con Streamlit
+│   ├── modelo_base.py                # Orquestador principal
+│   ├── query_rewriting.py            # Módulo de reescritura
+│   ├── semantic_router.py            # Módulo de enrutamiento
+│   ├── rrf.py                        # Búsqueda Híbrida + Fusión
+│   ├── reranker.py                   # Sistema de Re-ranking
+│   └── utils.py                      # Utilidades y logging
+│ 
+├── .env                              # Variables de entorno (API Keys)
+├── requirements.txt                  # Dependencias del proyecto
+└── README.md                         # Documentación
+```
+---
+
+## 🚀 Arquitectura RAG
 
 El proyecto implementa cuatro capas críticas de recuperación para maximizar la precisión:
 
@@ -45,32 +73,16 @@ Los resultados no solo se recuperan, se reevalúan. Utilizamos el modelo **BGE-R
 | **Memoria** | Recoge en un historial la informacion. |
 
 ---
-## 📂 Estructura del Proyecto
-```text
 
-├── 📂 data/                          # Almacén de datos
-│   ├── pdf/                          # Guías turísticas fuente
-│   ├── imagenes_extraidas/           # Imágenes procesadas para multimodalidad
-│   └── metadatos_pdfs.json           # Metadatos manuales para el Router
-│ 
-├── 📂 chroma_db_multimodal/          # Base de datos vectorial persistente
-│ 
-├── 📂 src/                           # Código Fuente
-│   ├── 01_Ingesta_multimodal.py      # ETL: Procesa PDFs, extrae texto/imgs y vectoriza
-│   ├── 02_evaluar_chunks.py          # Script de métricas (Hit Rate, MRR)
-│   ├── 03_API_Separada.py            # Backend: API REST con FastAPI
-│   ├── 04_APP.py                     # Frontend: Interfaz de usuario con Streamlit
-│   ├── modelo_base.py                # Orquestador principal
-│   ├── query_rewriting.py            # Módulo de reescritura
-│   ├── semantic_router.py            # Módulo de enrutamiento
-│   ├── rrf.py                        # Búsqueda Híbrida + Fusión
-│   ├── reranker.py                   # Sistema de Re-ranking
-│   └── utils.py                      # Utilidades y logging
-│ 
-├── .env                              # Variables de entorno (API Keys)
-├── requirements.txt                  # Dependencias del proyecto
-└── README.md                         # Documentación
-```
+## 🏗️ Arquitectura Técnica
+
+El sistema sigue el patrón de diseño de microservicios para desacoplar la lógica de la interfaz.
+
+### 🛠️ Stack Tecnológico
+* **Backend:** `FastAPI` (Gestión de rutas, asincronía y lógica RAG).
+* **Frontend:** `Streamlit` (Interfaz de chat con soporte de imágenes).
+* **Base de Datos Vectorial:** `ChromaDB` (Colecciones separadas para texto e imágenes).
+
 ---
 ### 🧠 Modelos Implementados
 Para lograr la máxima puntuación en precisión, utilizamos una estrategia **Multi-LLM**:

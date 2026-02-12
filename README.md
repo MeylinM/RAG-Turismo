@@ -46,6 +46,7 @@ Los resultados no solo se recuperan, se reevalúan. Utilizamos el modelo **BGE-R
 
 ---
 ## 📂 Estructura del Proyecto
+```text
 Cicerón/
 ├── 📂 data/                          # Almacén de datos
 │   ├── pdf/                          # Guías turísticas fuente
@@ -59,8 +60,6 @@ Cicerón/
 │   ├── 02_evaluar_chunks.py          # Script de métricas (Hit Rate, MRR)
 │   ├── 03_API_Separada.py            # Backend: API REST con FastAPI
 │   ├── 04_APP.py                     # Frontend: Interfaz de usuario con Streamlit
-│   │
-│   # --- Módulos del Core RAG ---
 │   ├── modelo_base.py                # Orquestador principal
 │   ├── query_rewriting.py            # Módulo de reescritura
 │   ├── semantic_router.py            # Módulo de enrutamiento
@@ -71,7 +70,7 @@ Cicerón/
 ├── .env                              # Variables de entorno (API Keys)
 ├── requirements.txt                  # Dependencias del proyecto
 └── README.md                         # Documentación
-
+```
 ---
 
 ## 🏗️ Arquitectura Técnica

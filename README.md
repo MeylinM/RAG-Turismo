@@ -1,6 +1,6 @@
 # 🏛️ Cicerón: Asistente Turístico Multimodal e Inteligente
 
-![Python](https://img.shields.io/badge/Python-3.10+-blue.svg)
+![Python](https://img.shields.io/badge/Python+-blue.svg)
 ![FastAPI](https://img.shields.io/badge/FastAPI-Backend-green.svg)
 ![Streamlit](https://img.shields.io/badge/Streamlit-Frontend-red.svg)
 ![RAG](https://img.shields.io/badge/RAG-Multimodal-orange.svg)

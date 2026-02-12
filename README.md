@@ -15,6 +15,33 @@ A diferencia de los chatbots convencionales, Cicerón es **Multimodal** (entiend
 
 ---
 
+🚀 Características Técnicas (Advanced RAG)
+Este proyecto supera los requisitos del reto implementando 4 técnicas avanzadas de recuperación:
+
+🧠 Query Rewriting (Reescritura de Consultas):
+
+Utiliza un LLM intermedio para transformar preguntas vagas (ej: "sitios japo madrid") en consultas optimizadas para búsqueda vectorial (ej: "restaurantes de cocina japonesa en Madrid").
+
+🚦 Semantic Routing (Enrutamiento Semántico):
+
+Analiza la intención del usuario para filtrar metadatos. Si la pregunta es sobre "Tokio", el sistema bloquea automáticamente los documentos de "España" para evitar ruido.
+
+🤝 Hybrid Search & RRF (Fusión de Rangos):
+
+Combina lo mejor de dos mundos: Búsqueda Semántica (Embeddings) para entender conceptos y BM25 (Palabras clave) para términos exactos. Los resultados se fusionan usando el algoritmo Reciprocal Rank Fusion.
+
+⚖️ Cross-Encoder Reranking:
+
+Los documentos recuperados son reevaluados por un modelo especializado (BGE-Reranker) que los reordena según su relevancia real antes de enviarlos al LLM, mejorando drásticamente la precisión.
+
+Adicionalmente:
+
+🖼️ Multimodalidad: Recuperación de imágenes basada en embeddings CLIP (Texto a Imagen).
+
+🛡️ Seguridad: Filtros de entrada para prevenir Prompt Injection.
+
+---
+
 ## 🏗️ Arquitectura Técnica
 
 El sistema sigue el patrón de diseño de microservicios para desacoplar la lógica de la interfaz.

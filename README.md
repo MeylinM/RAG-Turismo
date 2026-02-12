@@ -96,17 +96,6 @@ Para lograr la máxima puntuación en precisión, utilizamos una estrategia **Mu
 
 ---
 
-## 🚀 Pipeline Avanzado (RAG Flow)
-
-Cicerón implementa 4 técnicas avanzadas (superando las 3 requeridas por la rúbrica):
-
-1.  **Query Rewriting:** Transforma preguntas vagas ("sitios japo madrid") en consultas ricas ("Restaurantes de comida japonesa en Madrid").
-2.  **Routing Semántico:** Detecta si la pregunta es sobre Japón o España y filtra la base de datos automáticamente para reducir ruido.
-3.  **Reciprocal Rank Fusion (RRF):** Fusiona resultados de **Búsqueda Vectorial** (significado) y **BM25** (palabras clave exactas).
-4.  **Cross-Encoder Reranking:** Un modelo especializado re-evalúa los 50 documentos recuperados y selecciona solo los 5 mejores.
-
----
-
 ## 📊 Evaluación y Métricas (Evidencias)
 
 A continuación se presentan las evidencias de rendimiento del sistema, requisito fundamental para la validación técnica.

@@ -47,14 +47,12 @@ Los resultados no solo se recuperan, se reevalúan. Utilizamos el modelo **BGE-R
 ---
 ## 📂 Estructura del Proyecto
 ```text
-Cicerón/
+
 ├── 📂 data/                          # Almacén de datos
 │   ├── pdf/                          # Guías turísticas fuente
 │   ├── imagenes_extraidas/           # Imágenes procesadas para multimodalidad
 │   └── metadatos_pdfs.json           # Metadatos manuales para el Router
-│
 ├── 📂 chroma_db_multimodal/          # Base de datos vectorial persistente
-│
 ├── 📂 src/                           # Código Fuente
 │   ├── 01_Ingesta_multimodal.py      # ETL: Procesa PDFs, extrae texto/imgs y vectoriza
 │   ├── 02_evaluar_chunks.py          # Script de métricas (Hit Rate, MRR)
@@ -66,7 +64,6 @@ Cicerón/
 │   ├── rrf.py                        # Búsqueda Híbrida + Fusión
 │   ├── reranker.py                   # Sistema de Re-ranking
 │   └── utils.py                      # Utilidades y logging
-│
 ├── .env                              # Variables de entorno (API Keys)
 ├── requirements.txt                  # Dependencias del proyecto
 └── README.md                         # Documentación

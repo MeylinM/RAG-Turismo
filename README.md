@@ -124,11 +124,12 @@ Utilizando un "Golden Set" (preguntas con respuestas ideales), evaluamos la fide
 
 > **Captura de los resultados del script `ragas.py`:**
 
-![Evidencia Ragas](data/primeraEvaluacion.png)
+![Evidencia Ragas](data/TerceraEvaluacion.png)
 
 * **Fidelidad:** Mide si el modelo inventa datos. (Objetivo > 90%)
 * **Exactitud:** Comparación semántica con la respuesta ideal.
 * **Multimodalidad:** Porcentaje de veces que recuperó una imagen correcta.
+* **Latencia:** Promedio de tiempo que tarda en responder la RAG.
 
 ---
 

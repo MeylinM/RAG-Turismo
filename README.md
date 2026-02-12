@@ -29,16 +29,15 @@ Cicerón es **Multimodal** que entiende texto y responde con texto e imagenes. U
 │   ├── 📂 app/                       # Frontend e Interfaz
 │   │   ├── 📂 img/                   # Recursos gráficos de la app
 │   │   ├── 04_APP.py                 # Punto de entrada de la aplicación Streamlit
-│   │   ├── info.txt                  # Textos informativos para la UI
 │   │   └── style.css                 # Hoja de estilos (CSS)
 │   │
 │   ├── 📂 evaluacion_modelo/         # Scripts de Ingesta, RAGAS y Métricas
-│   │   ├── 01_Ingesta_multimodal_metadata.py # ETL: Procesamiento y vectorización
-│   │   ├── 02_evaluar_chunks.py      # Script de evaluación de fragmentación
 │   │   ├── ground_truth.py           # Generación de dataset de verdad (Ground Truth)
 │   │   ├── ragas.py                  # Evaluación del modelo usando librería Ragas
 │   │   └── reporte_evaluacion_*.csv  # Reportes de métricas generados
 │   │
+│   ├── 01_Ingesta_multimodal_metadata.py # ETL: Procesamiento y vectorización
+│   ├── 02_evaluar_chunks.py      # Script de evaluación de fragmentación
 │   ├── 03_API_Separada.py            # Backend: API REST con FastAPI
 │   ├── modelo_base.py                # Orquestador principal del flujo RAG
 │   ├── query_rewriting.py            # Módulo de reescritura de consultas
@@ -49,6 +48,7 @@ Cicerón es **Multimodal** que entiende texto y responde con texto e imagenes. U
 │
 ├── .env                              # Variables de entorno (API Keys)
 ├── requirements.txt                  # Dependencias del proyecto
+├── .gitignore
 └── README.md                         # Documentación
 ```
 ---

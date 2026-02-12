@@ -72,17 +72,6 @@ Los resultados no solo se recuperan, se reevalúan. Utilizamos el modelo **BGE-R
 └── README.md                         # Documentación
 ```
 ---
-
-## 🏗️ Arquitectura Técnica
-
-El sistema sigue el patrón de diseño de microservicios para desacoplar la lógica de la interfaz.
-
-### 🛠️ Stack Tecnológico
-* **Backend:** `FastAPI` (Gestión de rutas, asincronía y lógica RAG).
-* **Frontend:** `Streamlit` (Interfaz de chat con soporte de imágenes).
-* **Base de Datos Vectorial:** `ChromaDB` (Colecciones separadas para texto e imágenes).
-* **Orquestación:** Python puro (sin frameworks pesados como LangChain para mayor control).
-
 ### 🧠 Modelos Implementados
 Para lograr la máxima puntuación en precisión, utilizamos una estrategia **Multi-LLM**:
 

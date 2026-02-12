@@ -81,7 +81,7 @@ El sistema sigue el patrón de diseño de microservicios para desacoplar la lóg
 ### 🛠️ Stack Tecnológico
 * **Backend:** `FastAPI` (Gestión de rutas, asincronía y lógica RAG).
 * **Frontend:** `Streamlit` (Interfaz de chat con soporte de imágenes).
-* **Base de Datos Vectorial:** `ChromaDB` (Colecciones separadas para texto e imágenes).
+* **Base de Datos Chroma:** `ChromaDB` (Colecciones separadas para texto e imágenes).
 
 ---
 ### 🧠 Modelos Implementados

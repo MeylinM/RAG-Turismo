@@ -56,7 +56,7 @@ Se realizaron pruebas con distintos tamaños de chunk para encontrar el balance 
 
 > **Captura de los resultados del script `02_evaluar_chunks.py`:**
 
-![Evidencia Chunks](img/metrics_chunks.png)  
+![Evidencia Chunks](dara/resultado_evaluacion_chunks.png)  
 *(Si no carga la imagen: Hit Rate promedio de 0.88 con chunks de 512 tokens)*
 
 ### 2. Evaluación de Generación (RAGAS / LLM-Judge)
@@ -64,7 +64,7 @@ Utilizando un "Golden Set" (preguntas con respuestas ideales), evaluamos la fide
 
 > **Captura de los resultados del script `ragas.py`:**
 
-![Evidencia Ragas](img/metrics_ragas.png)
+![Evidencia Ragas](data/primeraEvaluacion.png)
 
 * **Fidelidad:** Mide si el modelo inventa datos. (Objetivo > 90%)
 * **Exactitud:** Comparación semántica con la respuesta ideal.

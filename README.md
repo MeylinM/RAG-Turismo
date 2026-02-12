@@ -1,6 +1,6 @@
 # 🏛️ Cicerón: Asistente Turístico Multimodal e Inteligente
 
-![Python](https://img.shields.io/badge/Python+-blue.svg)
+![Python](https://img.shields.io/badge/Python-blue.svg)
 ![FastAPI](https://img.shields.io/badge/FastAPI-Backend-green.svg)
 ![Streamlit](https://img.shields.io/badge/Streamlit-Frontend-red.svg)
 ![RAG](https://img.shields.io/badge/RAG-Multimodal-orange.svg)
@@ -124,7 +124,7 @@ Utilizando un "Golden Set" (preguntas con respuestas ideales), evaluamos la fide
 ## ⚙️ Instalación y Despliegue
 
 ### Requisitos Previos
-* Python 3.10+
+* Python
 * Clave de OpenAI (`OPENAI_API_KEY`)
 
 ### Paso 1: Configuración Automática

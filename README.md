@@ -42,7 +42,7 @@ Los resultados no solo se recuperan, se reevalúan. Utilizamos el modelo **BGE-R
 | :--- | :--- |
 | **Multimodalidad** | Recuperación de imágenes mediante embeddings **CLIP** (Texto a Imagen). |
 | **Seguridad** | Capas de filtrado de entrada para prevenir ataques de **Prompt Injection**. |
-| **Fuentes Oficiales** | Prioriza guías de turismo reales sobre el conocimiento general del modelo. |
+| **Memoria** | Recoge en un historial la informacion. |
 
 ---
 ## 📂 Estructura del Proyecto

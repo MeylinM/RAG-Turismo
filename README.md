@@ -45,6 +45,32 @@ Los resultados no solo se recuperan, se reevalúan. Utilizamos el modelo **BGE-R
 | **Fuentes Oficiales** | Prioriza guías de turismo reales sobre el conocimiento general del modelo. |
 
 ---
+## 📂 Estructura del Proyecto
+Cicerón/
+├── 📂 data/                          # Almacén de datos
+│   ├── pdf/                          # Guías turísticas fuente
+│   ├── imagenes_extraidas/           # Imágenes procesadas para multimodalidad
+│   └── metadatos_pdfs.json           # Metadatos manuales para el Router
+│
+├── 📂 chroma_db_multimodal/          # Base de datos vectorial persistente
+│
+├── 📂 src/                           # Código Fuente
+│   ├── 01_Ingesta_multimodal.py      # ETL: Procesa PDFs, extrae texto/imgs y vectoriza
+│   ├── 02_evaluar_chunks.py          # Script de métricas (Hit Rate, MRR)
+│   ├── 03_API_Separada.py            # Backend: API REST con FastAPI
+│   ├── 04_APP.py                     # Frontend: Interfaz de usuario con Streamlit
+│   │
+│   # --- Módulos del Core RAG ---
+│   ├── modelo_base.py                # Orquestador principal
+│   ├── query_rewriting.py            # Módulo de reescritura
+│   ├── semantic_router.py            # Módulo de enrutamiento
+│   ├── rrf.py                        # Búsqueda Híbrida + Fusión
+│   ├── reranker.py                   # Sistema de Re-ranking
+│   └── utils.py                      # Utilidades y logging
+│
+├── .env                              # Variables de entorno (API Keys)
+├── requirements.txt                  # Dependencias del proyecto
+└── README.md                         # Documentación
 
 ---
 

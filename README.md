@@ -139,13 +139,9 @@ Utilizando un "Golden Set" (preguntas con respuestas ideales), evaluamos la fide
 * Python
 * Clave de OpenAI (`OPENAI_API_KEY`)
 
-### Paso 1: Configuración Automática
-Hemos incluido un script para facilitar la instalación en Windows:
-1.  Haz doble clic en el archivo `setup.bat`.
-2.  Esto creará el entorno virtual e instalará las dependencias limpias.
 
-### Paso 2: Ejecución Manual
-Si prefieres usar la terminal:
+### ¡Ejecución Manual
+Observacion: Para que la RAG genere respuesta debes tener en cuenta que la base de datos debe estar creada.
 
 ```bash
 # 1. Instalar dependencias
